@@ -1,0 +1,35 @@
+﻿<!----_Footer.Address-->
+@model IEnumerable<App.Domain.Entities.GlobalSetting.ContactInformation>
+@if (Model != null)
+{
+    <div class="col-md-3 col-sm-6 col-xs-12">
+        <div id="houzez_contact-4" class="footer-widget widget-contact">
+            @{
+                var contact = Model.Where(x => x.Type == 1).SingleOrDefault();
+            }
+            <div class="widget-top"><h3 class="widget-title">@contact.Title</h3></div>
+            <div class="widget-body">
+                <div class="contact_text"></div>
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-location-arrow"></i> @T("Address.Lable") : @contact.Address</li>
+
+                    <li><i class="fa fa-phone"></i> @T("DienThoai.Lable"):  @contact.Hotline</li>
+
+
+                    <li><i class="fa fa-envelope-o"></i> <a href="#"> Email:  @contact.Email</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!---Call Info-->
+                <a href="tel:0925923923" class="call-info">
+                    <img src="http://www.suachuathongminh.vn/images/phone.png">
+                    <b>Hổ trợ tư vấn</b>
+                    <span>Nhấn để gọi @contact.Hotline</span>
+                </a>
+    <!---/Call Info-->
+
+                }
+<!----/_Footer.Address-->

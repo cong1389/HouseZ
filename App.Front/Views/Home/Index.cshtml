@@ -1,0 +1,104 @@
+﻿
+@Html.Action("GetSlideShow", "SlideShow", new { area = "" })
+
+
+<div class="container">
+
+    @Html.Action("GetProductHome", "Post", new { MenuId = 15, area = "" })
+
+    @{Html.RenderAction("GetNewsHome", "News", new { area = "" }); }
+     
+    @{ Html.RenderAction("FlowStepHome", "FlowStep", new { area = "" });}
+    
+    @*<div class="row row-fluid patners-module">
+        <div class="col-sm-12">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                    <!--start agents carousel module-->
+                    <div id="partner-carousel-module" class="houzez-module agents-carousel-module">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="module-title-nav clearfix">
+                                    <div>
+                                        <h2>Our partners</h2>
+                                        <h3 class="sub-title">Here could be a nice sub title</h3>
+                                    </div>
+                                    <div class="module-nav">
+                                        <button class="btn btn-carousel btn-sm btn-prev-partners">
+                                            Prev
+                                        </button>
+                                        <button class="btn btn-carousel btn-sm btn-next-partners">
+                                            Next
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div id="partner-carousel" class="partner-carousel slide-animated owl-carousel owl-theme">
+                                    <div class="item">
+                                        <div class="partner-block">
+                                            <div class="partner-logo">
+                                                <a href="#">
+                                                    <img width="150" height="100" src="/assets/wp-content/uploads/2016/03/partner-05-150x100.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="partner-block">
+                                            <div class="partner-logo">
+                                                <a href="#">
+                                                    <img width="150" height="100" src="/assets/wp-content/uploads/2016/03/partner-04-150x100.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="partner-block">
+                                            <div class="partner-logo">
+                                                <a href="#">
+                                                    <img width="150" height="100" src="/assets/wp-content/uploads/2016/03/partner-02-150x100.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="partner-block">
+                                            <div class="partner-logo">
+                                                <a href="#">
+                                                    <img width="150" height="100" src="/assets/wp-content/uploads/2016/03/partner-01-150x100.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="partner-block">
+                                            <div class="partner-logo">
+                                                <a href="#">
+                                                    <img width="150" height="100" src="/assets/wp-content/uploads/2016/03/partner-06-150x100.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="partner-block">
+                                            <div class="partner-logo">
+                                                <a href="#">
+                                                    <img width="150" height="100" src="/assets/wp-content/uploads/2016/03/partner-03-150x100.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end agents carousel module-->
+
+                </div>
+            </div>
+        </div>
+    </div>*@
+
+
+</div>

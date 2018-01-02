@@ -1,0 +1,2515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\FreeLance\2017\HouseZ\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>12/20/2017 16:41:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/contact-form-7/images/ajax-loader.gif">
+      <publishTime>11/14/2017 02:33:34</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/contact-form-7/includes/css/styles5859.css">
+      <publishTime>11/14/2017 02:33:34</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/contact-form-7/includes/js/scripts5859.js">
+      <publishTime>11/14/2017 02:33:34</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/css/js_composer.min7661.css">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v157a1.eot">
+      <publishTime>12/16/2017 21:08:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v157a1.html">
+      <publishTime>12/16/2017 21:29:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v157a1.svg">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v157a1.woff">
+      <publishTime>12/16/2017 21:08:20</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1d41d.eot">
+      <publishTime>12/16/2017 21:08:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons01aa.html">
+      <publishTime>12/16/2017 21:29:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons01aa.svg">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons01aa.woff">
+      <publishTime>12/16/2017 21:08:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/flickr.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/address-book.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/alarm-clock.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/anchor.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/application-image.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/arrow.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/asterisk.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/auction-hammer.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/balloon-buzz.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/balloon-facebook.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/balloon-twitter.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/balloon.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/battery-full.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/binocular.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/blue-document-excel.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/blue-document-image.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/blue-document-music.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/blue-document-office.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/blue-document-pdf.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/blue-document-powerpoint.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/blue-document-word.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/bookmark.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/camcorder.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/camera.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/chart-pie.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/chart.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/clock.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/control.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/fire.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/heart.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/mail.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/plus-shield.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/icons/video.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/spinner.gif">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/toggle_close.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/images/toggle_open.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min7661.js">
+      <publishTime>12/26/2017 11:53:02</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min7661.css">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/lib/bower/skrollr/dist/skrollr.min7661.js">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min7661.js">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/vc/alert.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/vc/exclamation.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/vc/info.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/vc/remove.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/js_composer/assets/vc/tick.png">
+      <publishTime>11/14/2017 02:34:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.minfd2e.js">
+      <publishTime>11/14/2017 02:33:38</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/revslider/public/assets/assets/coloredbg.png">
+      <publishTime>11/14/2017 02:36:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/revslider/public/assets/assets/gridtile.png">
+      <publishTime>11/14/2017 02:36:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3.png">
+      <publishTime>11/14/2017 02:36:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3_white.png">
+      <publishTime>11/14/2017 02:36:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png">
+      <publishTime>11/14/2017 02:36:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/revslider/public/assets/assets/loader.gif">
+      <publishTime>11/14/2017 02:36:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/revslider/public/assets/css/closedhand.html">
+      <publishTime>12/16/2017 21:29:12</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/revslider/public/assets/css/openhand.html">
+      <publishTime>12/16/2017 21:29:12</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/revslider/public/assets/css/settings8ab9.css">
+      <publishTime>11/14/2017 02:36:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.eot">
+      <publishTime>12/16/2017 21:07:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.html">
+      <publishTime>12/16/2017 21:29:12</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.svg">
+      <publishTime>11/14/2017 02:36:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons90c6.woff">
+      <publishTime>12/16/2017 21:07:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min8ab9.js">
+      <publishTime>11/14/2017 02:36:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min8ab9.js">
+      <publishTime>11/14/2017 02:36:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/css/all.min00e2.css">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/css/bootstrap.min46df.css">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/css/font-awesome.min1849.css">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/css/main.min00e2.css">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/css/owl.video.play.html">
+      <publishTime>01/01/2018 14:57:30</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/css/vegas5152.css">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/fonts/bootstrap/glyphicons-halflings-regular.eot">
+      <publishTime>12/16/2017 21:07:20</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/fonts/bootstrap/glyphicons-halflings-regular.html">
+      <publishTime>12/16/2017 21:29:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/fonts/bootstrap/glyphicons-halflings-regular.svg">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/fonts/bootstrap/glyphicons-halflings-regular.woff">
+      <publishTime>12/16/2017 21:28:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/fonts/bootstrap/glyphicons-halflings-regular.woff2">
+      <publishTime>12/16/2017 21:38:30</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/fonts/bootstrap/glyphicons-halflings-regulard41d.eot">
+      <publishTime>12/16/2017 21:07:22</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/fonts/fontawesome-webfont3e6e-2.html">
+      <publishTime>12/16/2017 21:29:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/fonts/fontawesome-webfont3e6e.eot">
+      <publishTime>12/16/2017 21:07:24</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/fonts/fontawesome-webfont3e6e.html">
+      <publishTime>12/16/2017 21:29:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/fonts/fontawesome-webfont3e6e.svg">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/fonts/fontawesome-webfont3e6e.woff">
+      <publishTime>12/16/2017 21:07:28</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/fonts/fontawesome-webfontd41d.eot">
+      <publishTime>12/16/2017 21:07:26</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/comment-banner.html">
+      <publishTime>12/16/2017 21:29:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/icon_inspector.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/logo/logo-houzez-white.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/paypal-icon.jpg">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/dark_rounded/btnNext.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/dark_rounded/btnPrevious.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/dark_rounded/contentPattern.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/dark_rounded/loader.gif">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/dark_rounded/sprite.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/dark_square/btnNext.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/dark_square/btnPrevious.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/dark_square/loader.gif">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/dark_square/sprite.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/default/default_thumb.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/default/loader.gif">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/default/sprite.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/default/sprite_next.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/default/sprite_prev.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/default/sprite_x.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/default/sprite_y.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/facebook/btnNext.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/facebook/btnPrevious.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/facebook/contentPatternBottom.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/facebook/contentPatternLeft.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/facebook/contentPatternRight.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/facebook/contentPatternTop.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/facebook/default_thumbnail.gif">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/facebook/loader.gif">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/facebook/sprite.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/light_rounded/btnNext.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/light_rounded/btnPrevious.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/light_rounded/loader.gif">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/light_rounded/sprite.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/light_square/btnNext.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/light_square/btnPrevious.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/prettyPhoto/light_square/sprite.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/range-handle-image.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/save-search-icon.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/stripe-icon.jpg">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/images/video-play-icon.png">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/js/bootstrap.min46df.js">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/js/Chart.min77e6.js">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/js/custom.min00e2.js">
+      <publishTime>12/29/2017 22:30:42</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/js/houzez_ajax_calls.min00e2.js">
+      <publishTime>12/26/2017 13:43:04</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/js/houzez_property00e2.js">
+      <publishTime>12/26/2017 11:59:42</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/js/infobox.minc5c9.js">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/js/isotope.pkgd.min605a.js">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/js/jquery.validate.mine57b.js">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/js/markerclusterer.mine1fc.js">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/js/plugins00e2.js">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/js/property-carousels-v2.min00e2.js">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/js/property-carousels.min00e2.js">
+      <publishTime>12/25/2017 22:45:46</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/js/property_stats00e2.js">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/js/vegas5152.js">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/themes/houzez/style.min00e2.css">
+      <publishTime>11/14/2017 02:36:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-bath-room-1-1170x600.jpg">
+      <publishTime>05/06/2016 01:20:26</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-bath-room-1-1170x738.jpg">
+      <publishTime>05/06/2016 01:20:26</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-bath-room-1-150x110.jpg">
+      <publishTime>05/06/2016 01:20:26</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-bath-room-1-810x430.jpg">
+      <publishTime>05/06/2016 01:20:26</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-bed-room-1-1170x600.jpg">
+      <publishTime>05/06/2016 01:20:24</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-bed-room-1-1170x738.jpg">
+      <publishTime>05/06/2016 01:20:24</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-bed-room-1-150x110.jpg">
+      <publishTime>05/06/2016 01:20:24</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-bed-room-1-810x430.jpg">
+      <publishTime>05/06/2016 01:20:24</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-living-room-1-1170x600.jpg">
+      <publishTime>05/06/2016 01:20:22</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-living-room-1-1170x738.jpg">
+      <publishTime>05/06/2016 01:20:22</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-living-room-1-150x110.jpg">
+      <publishTime>05/06/2016 01:20:22</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-living-room-1-810x430.jpg">
+      <publishTime>05/06/2016 01:20:22</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-living-room-2-1170x600.jpg">
+      <publishTime>05/06/2016 01:20:20</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-living-room-2-1170x738.jpg">
+      <publishTime>05/06/2016 01:20:20</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-living-room-2-150x110.jpg">
+      <publishTime>05/06/2016 01:20:20</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-living-room-2-810x430.jpg">
+      <publishTime>05/06/2016 01:20:20</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-living-room-3-1170x600.jpg">
+      <publishTime>05/06/2016 01:20:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-living-room-3-1170x738.jpg">
+      <publishTime>05/06/2016 01:20:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-living-room-3-150x110.jpg">
+      <publishTime>05/06/2016 01:20:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-living-room-3-810x430.jpg">
+      <publishTime>05/06/2016 01:20:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-pool-1-1170x600.jpg">
+      <publishTime>05/06/2016 01:20:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-pool-1-1170x738.jpg">
+      <publishTime>05/06/2016 01:20:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-pool-1-150x110.jpg">
+      <publishTime>05/06/2016 01:20:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-pool-1-350x235.jpg">
+      <publishTime>05/06/2016 01:20:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-pool-1-350x350.jpg">
+      <publishTime>05/06/2016 01:20:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-pool-1-385x258.jpg">
+      <publishTime>05/06/2016 01:20:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-pool-1-810x430.jpg">
+      <publishTime>05/06/2016 01:20:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-studio-room-1-1170x600.jpg">
+      <publishTime>05/06/2016 01:20:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-studio-room-1-1170x738.jpg">
+      <publishTime>05/06/2016 01:20:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-studio-room-1-150x110.jpg">
+      <publishTime>05/06/2016 01:20:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/inner-studio-room-1-810x430.jpg">
+      <publishTime>05/06/2016 01:20:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/villa-1-1170x600.jpg">
+      <publishTime>05/06/2016 01:20:28</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/villa-1-385x258.jpg">
+      <publishTime>05/06/2016 01:20:28</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/01/villa-1-810x430.jpg">
+      <publishTime>05/06/2016 01:20:28</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/agent-1-150x150.jpg">
+      <publishTime>06/05/2016 01:19:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/agent-1-350x350.jpg">
+      <publishTime>06/05/2016 01:19:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/agent-2-150x150.jpg">
+      <publishTime>06/05/2016 01:19:34</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/agent-2-300x300.jpg">
+      <publishTime>06/05/2016 01:19:34</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/agent-2-350x350.jpg">
+      <publishTime>06/05/2016 01:19:34</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/agent-3-150x150.jpg">
+      <publishTime>06/05/2016 01:19:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/agent-3-300x300.jpg">
+      <publishTime>06/05/2016 01:19:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/agent-3-350x350.jpg">
+      <publishTime>05/06/2016 01:19:34</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/agent-4-150x150.jpg">
+      <publishTime>05/06/2016 01:19:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/agent-4-300x300.jpg">
+      <publishTime>05/06/2016 01:19:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/agent-4-350x350.jpg">
+      <publishTime>05/06/2016 01:19:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/agent-logo.png">
+      <publishTime>04/27/2016 01:43:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/agent1-1.jpg">
+      <publishTime>04/27/2016 01:43:08</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/apartment-1-1170x600.jpg">
+      <publishTime>05/06/2016 01:19:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/apartment-1-385x258.jpg">
+      <publishTime>05/06/2016 01:19:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/apartment-2-1170x600.jpg">
+      <publishTime>05/06/2016 01:19:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/apartment-2-350x235.jpg">
+      <publishTime>05/06/2016 01:19:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/apartment-2-350x350.jpg">
+      <publishTime>05/06/2016 01:19:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/apartment-2-385x258.jpg">
+      <publishTime>05/06/2016 01:19:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/apartment-2-810x430.jpg">
+      <publishTime>05/06/2016 01:19:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/apartment-3-1170x600.jpg">
+      <publishTime>06/05/2016 01:19:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/apartment-3-385x258.jpg">
+      <publishTime>06/05/2016 01:19:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/apartment-4-1170x600.jpg">
+      <publishTime>06/05/2016 01:19:50</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/apartment-4-385x258.jpg">
+      <publishTime>06/05/2016 01:19:50</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/apartment-5-1170x600.jpg">
+      <publishTime>06/05/2016 01:19:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/apartment-5-385x258.jpg">
+      <publishTime>06/05/2016 01:19:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/apartment-5-570x340.jpg">
+      <publishTime>06/05/2016 01:19:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/globe.png">
+      <publishTime>04/27/2016 01:43:38</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/heart.png">
+      <publishTime>04/27/2016 01:43:38</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-1-1170x600.jpg">
+      <publishTime>06/05/2016 01:19:46</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-1-350x235.jpg">
+      <publishTime>05/06/2016 01:19:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-1-350x350.jpg">
+      <publishTime>05/06/2016 01:19:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-1-385x258.jpg">
+      <publishTime>06/05/2016 01:19:46</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-1-810x430.jpg">
+      <publishTime>06/05/2016 01:19:46</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-2-1170x600.jpg">
+      <publishTime>06/05/2016 01:19:44</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-2-385x258.jpg">
+      <publishTime>06/05/2016 01:19:44</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-2-570x340.jpg">
+      <publishTime>06/05/2016 01:19:44</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-3-1170x600.jpg">
+      <publishTime>06/05/2016 01:19:42</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-3-385x258.jpg">
+      <publishTime>06/05/2016 01:19:42</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-3-570x340.jpg">
+      <publishTime>06/05/2016 01:19:42</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-4-1170x600.jpg">
+      <publishTime>06/05/2016 01:19:40</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-4-150x110.jpg">
+      <publishTime>06/05/2016 01:19:40</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-4-385x258.jpg">
+      <publishTime>06/05/2016 01:19:40</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-4-570x340.jpg">
+      <publishTime>06/05/2016 01:19:40</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-5-1170x600.jpg">
+      <publishTime>05/06/2016 01:19:38</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-5-385x258.jpg">
+      <publishTime>06/05/2016 01:19:38</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/house-5-570x340.jpg">
+      <publishTime>06/05/2016 01:19:38</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/list.png">
+      <publishTime>04/27/2016 01:44:08</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/monitor.png">
+      <publishTime>04/27/2016 01:44:08</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/rocket.png">
+      <publishTime>04/27/2016 01:44:10</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/slider-03.jpg">
+      <publishTime>04/27/2016 01:44:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/villa-2-1170x600.jpg">
+      <publishTime>05/06/2016 01:20:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/villa-2-385x258.jpg">
+      <publishTime>05/06/2016 01:20:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/villa-3-1170x600.jpg">
+      <publishTime>05/06/2016 01:20:04</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/villa-3-385x258.jpg">
+      <publishTime>06/05/2016 01:20:04</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/villa-4-1170x600.jpg">
+      <publishTime>05/06/2016 01:20:02</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/villa-4-385x258.jpg">
+      <publishTime>05/06/2016 01:20:02</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/villa-5-1170x600.jpg">
+      <publishTime>05/06/2016 01:20:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/villa-5-385x258.jpg">
+      <publishTime>05/06/2016 01:20:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/wallet.png">
+      <publishTime>04/27/2016 01:44:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/02/wrench.png">
+      <publishTime>04/27/2016 01:44:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/128-2.jpg">
+      <publishTime>04/27/2016 01:44:40</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/128-3.jpg">
+      <publishTime>04/27/2016 01:44:40</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/128.jpg">
+      <publishTime>04/27/2016 01:44:40</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/basket-1.png">
+      <publishTime>04/27/2016 01:44:40</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/bg-6-1.jpg">
+      <publishTime>12/17/2017 23:59:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/bg-video-1.png">
+      <publishTime>04/27/2016 01:44:50</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/briefcase-1.png">
+      <publishTime>04/27/2016 01:44:50</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-01-1170x600.jpg">
+      <publishTime>06/05/2016 01:18:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-01-150x110.jpg">
+      <publishTime>05/06/2016 01:18:50</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-01-385x258.jpg">
+      <publishTime>06/05/2016 01:18:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-02-1170x600.jpg">
+      <publishTime>05/06/2016 01:18:46</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-02-385x258.jpg">
+      <publishTime>05/06/2016 01:18:46</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-02-570x340.jpg">
+      <publishTime>05/06/2016 01:18:46</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-04-1170x600.jpg">
+      <publishTime>05/06/2016 01:18:44</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-04-350x235.1aa.delayed">
+      <publishTime>12/16/2017 21:22:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-04-350x350.jpg">
+      <publishTime>05/06/2016 01:18:44</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-04-385x258.jpg">
+      <publishTime>05/06/2016 01:18:44</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-04-810x430.jpg">
+      <publishTime>05/06/2016 01:18:44</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-05-1170x600.jpg">
+      <publishTime>05/06/2016 01:18:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-05-1170x738.jpg">
+      <publishTime>05/06/2016 01:18:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-05-150x150.jpg">
+      <publishTime>06/05/2016 01:18:50</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-05-300x202.jpg">
+      <publishTime>06/05/2016 01:18:50</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-05-350x235.jpg">
+      <publishTime>06/05/2016 01:18:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-05-350x350.jpg">
+      <publishTime>06/05/2016 01:18:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-05-385x258.jpg">
+      <publishTime>05/06/2016 01:18:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-05-570x340.jpg">
+      <publishTime>05/06/2016 01:18:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-05-810x430.jpg">
+      <publishTime>05/06/2016 01:18:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-06-1170x600.jpg">
+      <publishTime>05/06/2016 01:18:42</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-06-1170x738.jpg">
+      <publishTime>05/06/2016 01:18:42</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-06-150x110.jpg">
+      <publishTime>05/06/2016 01:18:42</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-06-350x235.jpg">
+      <publishTime>05/06/2016 01:18:42</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-06-385x258.jpg">
+      <publishTime>05/06/2016 01:18:42</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-06-570x340.jpg">
+      <publishTime>05/06/2016 01:18:42</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-06-810x430.jpg">
+      <publishTime>05/06/2016 01:18:42</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-08-1170x600.jpg">
+      <publishTime>05/06/2016 01:18:38</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-08-385x258.jpg">
+      <publishTime>05/06/2016 01:18:38</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-08-570x340.jpg">
+      <publishTime>05/06/2016 01:18:38</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-1-1170x600.jpg">
+      <publishTime>06/05/2016 01:18:22</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-1-350x199.jpg">
+      <publishTime>05/06/2016 01:18:24</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-1-350x350.jpg">
+      <publishTime>05/06/2016 01:18:24</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-1-385x258.jpg">
+      <publishTime>06/05/2016 01:18:22</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-1-570x340.jpg">
+      <publishTime>06/05/2016 01:18:22</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-1-810x430.jpg">
+      <publishTime>06/05/2016 01:18:22</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-10-1170x600.jpg">
+      <publishTime>05/06/2016 01:18:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-10-1170x738.jpg">
+      <publishTime>05/06/2016 01:18:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-10-150x150.jpg">
+      <publishTime>06/05/2016 01:18:34</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-10-350x235.jpg">
+      <publishTime>05/06/2016 01:18:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-10-350x350.jpg">
+      <publishTime>05/06/2016 01:18:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-10-385x258.jpg">
+      <publishTime>05/06/2016 01:18:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-10-810x430.jpg">
+      <publishTime>05/06/2016 01:18:36</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-1024x581.jpg">
+      <publishTime>06/05/2016 01:19:24</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-11-1170x600.jpg">
+      <publishTime>06/05/2016 01:18:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-11-300x202.jpg">
+      <publishTime>06/05/2016 01:18:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-11-385x258.jpg">
+      <publishTime>05/06/2016 01:18:34</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-11.jpg">
+      <publishTime>04/27/2016 01:45:44</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-12-1170x600.jpg">
+      <publishTime>05/06/2016 01:18:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-12-150x110.jpg">
+      <publishTime>05/06/2016 01:18:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-12-150x150.jpg">
+      <publishTime>06/05/2016 01:18:30</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-12-300x202.jpg">
+      <publishTime>06/05/2016 01:18:30</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-12-350x235.jpg">
+      <publishTime>05/06/2016 01:18:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-12-350x350.jpg">
+      <publishTime>05/06/2016 01:18:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-12-385x258.jpg">
+      <publishTime>05/06/2016 01:18:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-12-570x340.jpg">
+      <publishTime>05/06/2016 01:18:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-12-810x430.jpg">
+      <publishTime>05/06/2016 01:18:32</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-12.jpg">
+      <publishTime>04/27/2016 01:45:50</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-13-1170x600.jpg">
+      <publishTime>05/06/2016 01:18:30</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-13-300x202.jpg">
+      <publishTime>06/05/2016 01:18:28</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-13-385x258.jpg">
+      <publishTime>05/06/2016 01:18:30</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-13.jpg">
+      <publishTime>04/27/2016 01:45:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-14-1170x600.jpg">
+      <publishTime>06/05/2016 01:18:26</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-14-300x202.jpg">
+      <publishTime>05/06/2016 01:18:26</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-14-385x258.jpg">
+      <publishTime>06/05/2016 01:18:26</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-14-570x340.jpg">
+      <publishTime>06/05/2016 01:18:26</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago-14.jpg">
+      <publishTime>04/27/2016 01:46:04</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/chicago.jpg">
+      <publishTime>04/27/2016 01:46:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/credit-card.png">
+      <publishTime>04/27/2016 01:46:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/Debra-Rose_avatar_1434742307-150x150.jpg">
+      <publishTime>05/06/2016 01:18:54</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/Debra-Rose_avatar_1434742307.jpg">
+      <publishTime>04/27/2016 01:46:08</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/favicon.png">
+      <publishTime>04/27/2016 01:46:10</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/follow.png">
+      <publishTime>04/27/2016 01:46:10</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/following.png">
+      <publishTime>04/27/2016 01:46:10</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/home.png">
+      <publishTime>04/27/2016 01:46:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/houzez-video.ogv">
+      <publishTime>04/27/2016 01:46:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/houzez-video.webm">
+      <publishTime>04/27/2016 01:46:40</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/layers-1.png">
+      <publishTime>04/27/2016 01:46:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/like.png">
+      <publishTime>04/27/2016 01:46:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/logo-houzez-white.png">
+      <publishTime>04/27/2016 01:46:22</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-01-1170x600.jpg">
+      <publishTime>06/05/2016 01:18:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-01-1170x738.jpg">
+      <publishTime>06/05/2016 01:18:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-01-150x110.jpg">
+      <publishTime>06/05/2016 01:18:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-01-385x258.jpg">
+      <publishTime>06/05/2016 01:18:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-01-570x340.jpg">
+      <publishTime>06/05/2016 01:18:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-01-810x430.jpg">
+      <publishTime>06/05/2016 01:18:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-02-1170x600.jpg">
+      <publishTime>06/05/2016 01:18:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-02-1170x738.jpg">
+      <publishTime>06/05/2016 01:18:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-02-150x110.jpg">
+      <publishTime>06/05/2016 01:18:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-02-810x430.jpg">
+      <publishTime>06/05/2016 01:18:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-03-1170x600.jpg">
+      <publishTime>06/05/2016 01:18:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-03-1170x738.jpg">
+      <publishTime>06/05/2016 01:18:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-03-150x110.jpg">
+      <publishTime>06/05/2016 01:18:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-03-385x258.jpg">
+      <publishTime>06/05/2016 01:18:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-03-570x340.jpg">
+      <publishTime>06/05/2016 01:18:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-03-810x430.jpg">
+      <publishTime>06/05/2016 01:18:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-04-1170x600.jpg">
+      <publishTime>05/06/2016 01:18:12</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-04-385x258.jpg">
+      <publishTime>05/06/2016 01:18:12</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-04-570x340.jpg">
+      <publishTime>06/05/2016 01:18:12</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-05-1170x600.jpg">
+      <publishTime>05/06/2016 01:18:10</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-05-385x258.jpg">
+      <publishTime>05/06/2016 01:18:10</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-05-570x340.jpg">
+      <publishTime>05/06/2016 01:18:10</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-06-1170x600.jpg">
+      <publishTime>06/05/2016 01:18:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-06-385x258.jpg">
+      <publishTime>06/05/2016 01:18:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-06-570x340.jpg">
+      <publishTime>05/06/2016 01:18:08</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-07-1170x600.jpg">
+      <publishTime>05/06/2016 01:18:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-07-150x110.jpg">
+      <publishTime>05/06/2016 01:18:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-07-385x258.jpg">
+      <publishTime>05/06/2016 01:18:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-07-570x340.jpg">
+      <publishTime>05/06/2016 01:18:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-08-1170x600.jpg">
+      <publishTime>05/06/2016 01:18:04</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-08-1170x738.jpg">
+      <publishTime>05/06/2016 01:18:04</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-08-150x110.jpg">
+      <publishTime>05/06/2016 01:18:04</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-08-385x258.jpg">
+      <publishTime>05/06/2016 01:18:04</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-08-570x340.jpg">
+      <publishTime>05/06/2016 01:18:04</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-08-810x430.jpg">
+      <publishTime>05/06/2016 01:18:04</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-09-1170x600.jpg">
+      <publishTime>06/05/2016 01:18:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-09-385x258.jpg">
+      <publishTime>06/05/2016 01:18:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-09-570x340.jpg">
+      <publishTime>06/05/2016 01:18:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-1-1170x600.jpg">
+      <publishTime>05/06/2016 01:17:46</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-1-150x110.jpg">
+      <publishTime>06/05/2016 01:17:46</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-1-385x258.jpg">
+      <publishTime>05/06/2016 01:17:46</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-1-570x340.jpg">
+      <publishTime>05/06/2016 01:17:46</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-1.jpg">
+      <publishTime>04/27/2016 01:47:28</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-10-1170x600.jpg">
+      <publishTime>06/05/2016 01:17:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-10-150x110.jpg">
+      <publishTime>05/06/2016 01:18:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-10-385x258.jpg">
+      <publishTime>06/05/2016 01:17:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-10-570x340.2f.delayed">
+      <publishTime>12/16/2017 21:05:16</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-11-1170x600.jpg">
+      <publishTime>06/05/2016 01:17:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-11-150x150.jpg">
+      <publishTime>06/05/2016 01:17:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-11-350x235.jpg">
+      <publishTime>05/06/2016 01:17:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-11-350x350.jpg">
+      <publishTime>05/06/2016 01:17:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-11-385x258.jpg">
+      <publishTime>06/05/2016 01:17:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-11-570x340.jpg">
+      <publishTime>06/05/2016 01:17:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-11-810x430.jpg">
+      <publishTime>06/05/2016 01:17:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-13-1170x600.jpg">
+      <publishTime>06/05/2016 01:17:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-13-150x110.jpg">
+      <publishTime>06/05/2016 01:17:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-13-385x258.jpg">
+      <publishTime>06/05/2016 01:17:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-13-570x340.jpg">
+      <publishTime>06/05/2016 01:17:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-14-1170x600.jpg">
+      <publishTime>05/06/2016 01:17:50</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-14-150x110.jpg">
+      <publishTime>06/05/2016 01:17:50</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-14-385x258.jpg">
+      <publishTime>06/05/2016 01:17:50</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-14-570x340.jpg">
+      <publishTime>06/05/2016 01:17:50</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-15-1170x600.jpg">
+      <publishTime>05/06/2016 01:17:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-15-1170x738.jpg">
+      <publishTime>06/05/2016 01:17:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-15-150x110.jpg">
+      <publishTime>06/05/2016 01:17:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-15-385x258.jpg">
+      <publishTime>05/06/2016 01:17:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/los-angeles-15-570x340.jpg">
+      <publishTime>05/06/2016 01:17:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/male-user.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/miami-beach-150x150.jpg">
+      <publishTime>05/06/2016 01:19:20</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/miami-beach-350x219.jpg">
+      <publishTime>05/06/2016 01:19:22</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/miami-beach-350x350.jpg">
+      <publishTime>06/05/2016 01:19:20</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/miami-beach-385x258.jpg">
+      <publishTime>06/05/2016 01:19:20</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/miami-beach-810x430.jpg">
+      <publishTime>06/05/2016 01:19:20</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/miami-beach.jpg">
+      <publishTime>04/27/2016 01:48:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-01-1170x600.jpg">
+      <publishTime>05/06/2016 01:19:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-01-150x110.jpg">
+      <publishTime>06/05/2016 01:19:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-01-385x258.jpg">
+      <publishTime>05/06/2016 01:19:14</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-02-1170x600.jpg">
+      <publishTime>05/06/2016 01:19:12</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-02-350x235.jpg">
+      <publishTime>05/06/2016 01:19:12</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-02-385x258.jpg">
+      <publishTime>05/06/2016 01:19:12</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-02-810x430.jpg">
+      <publishTime>05/06/2016 01:19:12</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-03-1170x600.jpg">
+      <publishTime>05/06/2016 01:19:10</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-03-1170x738.jpg">
+      <publishTime>05/06/2016 01:19:10</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-03-150x110.jpg">
+      <publishTime>05/06/2016 01:19:10</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-03-385x258.jpg">
+      <publishTime>05/06/2016 01:19:10</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-03-570x340.jpg">
+      <publishTime>05/06/2016 01:19:10</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-03-810x430.jpg">
+      <publishTime>05/06/2016 01:19:10</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-04-1170x600.jpg">
+      <publishTime>05/06/2016 01:19:08</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-04-1170x738.jpg">
+      <publishTime>05/06/2016 01:19:08</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-04-150x110.jpg">
+      <publishTime>05/06/2016 01:19:08</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-04-385x258.jpg">
+      <publishTime>05/06/2016 01:19:08</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-04-570x340.jpg">
+      <publishTime>05/06/2016 01:19:08</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-04-810x430.jpg">
+      <publishTime>05/06/2016 01:19:08</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-05-1170x600.jpg">
+      <publishTime>05/06/2016 01:19:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-05-385x258.jpg">
+      <publishTime>05/06/2016 01:19:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-06-1170x600.jpg">
+      <publishTime>06/05/2016 01:19:02</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-06-385x258.jpg">
+      <publishTime>06/05/2016 01:19:02</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-07-1170x600.jpg">
+      <publishTime>06/05/2016 01:19:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-07-385x258.jpg">
+      <publishTime>06/05/2016 01:19:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-07-570x340.jpg">
+      <publishTime>05/06/2016 01:19:02</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-08-1170x600.jpg">
+      <publishTime>05/06/2016 01:19:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-08-385x258.jpg">
+      <publishTime>05/06/2016 01:19:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-08-570x340.jpg">
+      <publishTime>05/06/2016 01:19:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-09-1170x600.jpg">
+      <publishTime>06/05/2016 01:18:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-09-385x258.jpg">
+      <publishTime>05/06/2016 01:18:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-09-570x340.jpg">
+      <publishTime>05/06/2016 01:18:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-10-1170x600.jpg">
+      <publishTime>06/05/2016 01:18:54</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-10-150x110.jpg">
+      <publishTime>05/06/2016 01:18:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-10-385x258.jpg">
+      <publishTime>06/05/2016 01:18:54</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/new-york-10-570x340.jpg">
+      <publishTime>05/06/2016 01:18:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/opened-book.png">
+      <publishTime>04/27/2016 01:48:54</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/partner-01-150x100.jpg">
+      <publishTime>06/05/2016 01:16:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/partner-02-150x100.jpg">
+      <publishTime>05/06/2016 01:16:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/partner-03-150x100.jpg">
+      <publishTime>06/05/2016 01:16:54</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/partner-04-150x100.jpg">
+      <publishTime>05/06/2016 01:16:54</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/partner-05-150x100.jpg">
+      <publishTime>05/06/2016 01:16:54</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/partner-06-150x100.jpg">
+      <publishTime>06/05/2016 01:16:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/picture.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/slider-01.jpg">
+      <publishTime>04/27/2016 01:49:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/slider-02.jpg">
+      <publishTime>04/27/2016 01:49:10</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/speedometer.png">
+      <publishTime>04/27/2016 01:49:10</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/03/youtube.38.delayed">
+      <publishTime>12/16/2017 21:05:38</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/04/chicago-1024x576.jpg">
+      <publishTime>06/05/2016 01:16:26</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/06/1team.jpg">
+      <publishTime>11/17/2016 23:59:34</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/06/2team.jpg">
+      <publishTime>11/17/2016 23:59:44</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/06/3team.jpg">
+      <publishTime>11/17/2016 23:59:52</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/06/4team.jpg">
+      <publishTime>11/17/2016 23:59:58</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-150x150.jpg">
+      <publishTime>10/14/2016 21:04:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-350x280.jpg">
+      <publishTime>10/14/2016 21:04:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-Copy-150x150.jpg">
+      <publishTime>10/14/2016 21:04:12</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-Copy-2-150x150.jpg">
+      <publishTime>10/14/2016 21:04:08</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-Copy-2-350x280.jpg">
+      <publishTime>10/14/2016 21:04:08</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-Copy-2.jpg">
+      <publishTime>10/14/2016 21:04:06</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-Copy-3-150x150.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-Copy-3-350x280.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-Copy-3.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-Copy-350x280.jpg">
+      <publishTime>10/14/2016 21:04:12</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-Copy-4-150x150.jpg">
+      <publishTime>10/14/2016 21:03:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-Copy-4-350x280.jpg">
+      <publishTime>10/14/2016 21:03:56</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-Copy-4.jpg">
+      <publishTime>10/14/2016 21:03:54</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-Copy-5-150x150.jpg">
+      <publishTime>10/14/2016 21:03:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-Copy-5-350x280.jpg">
+      <publishTime>10/14/2016 21:03:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-Copy-5.jpg">
+      <publishTime>10/14/2016 21:03:46</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2-Copy.jpg">
+      <publishTime>10/14/2016 21:04:12</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/Artboard-2.jpg">
+      <publishTime>10/14/2016 21:04:18</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/favicon-114x144.png">
+      <publishTime>10/21/2016 01:40:48</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/favicon-57x57.png">
+      <publishTime>10/21/2016 01:40:44</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2016/10/favicon-72x72.png">
+      <publishTime>10/21/2016 01:40:46</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2017/11/2-300x200.jpg">
+      <publishTime>11/23/2017 08:50:20</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2017/11/2.jpg">
+      <publishTime>11/23/2017 08:50:20</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2017/12/3.-300x168.jpg">
+      <publishTime>12/16/2017 15:04:04</publishTime>
+    </File>
+    <File Include="assets/wp-content/uploads/2017/12/3..jpg">
+      <publishTime>12/16/2017 15:04:02</publishTime>
+    </File>
+    <File Include="assets/wp-includes/css/buttons.minf1c0.css">
+      <publishTime>11/14/2017 02:32:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/css/dashicons.minf1c0.css">
+      <publishTime>03/19/2016 03:26:26</publishTime>
+    </File>
+    <File Include="assets/wp-includes/css/editor.minf1c0.css">
+      <publishTime>11/14/2017 02:32:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/fonts/dashicons.eot">
+      <publishTime>12/16/2017 21:41:42</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/comment-reply.minf1c0.js">
+      <publishTime>11/19/2015 02:15:28</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/jquery/jquery-migrate.min330a.js">
+      <publishTime>06/22/2016 01:34:02</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/jquery/jquery.ui.touch-punchc682.js">
+      <publishTime>11/04/2012 09:58:24</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/jquery/jqueryb8ff.js">
+      <publishTime>06/22/2016 01:34:02</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/jquery/ui/autocomplete.mine899.js">
+      <publishTime>10/13/2016 21:11:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/jquery/ui/core.mine899.js">
+      <publishTime>10/13/2016 21:11:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/jquery/ui/datepicker.mine899.js">
+      <publishTime>10/13/2016 21:11:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/jquery/ui/menu.mine899.js">
+      <publishTime>10/13/2016 21:11:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/jquery/ui/mouse.mine899.js">
+      <publishTime>10/13/2016 21:11:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/jquery/ui/position.mine899.js">
+      <publishTime>10/13/2016 21:11:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/jquery/ui/sortable.mine899.js">
+      <publishTime>10/13/2016 21:11:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/jquery/ui/widget.mine899.js">
+      <publishTime>10/13/2016 21:11:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/plupload/plupload.full.mincc91.js">
+      <publishTime>11/10/2015 06:50:26</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/quicktags.minf1c0.js">
+      <publishTime>11/14/2017 02:32:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/tinymce/langs/en.html">
+      <publishTime>12/16/2017 21:41:56</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/tinymce/plugins/compat3x/plugin.min3db5.js">
+      <publishTime>11/14/2017 02:32:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/tinymce/tinymce.min3db5.js">
+      <publishTime>11/14/2017 02:32:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/utils.minf1c0.js">
+      <publishTime>10/13/2016 21:11:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/wp-a11y.minf1c0.js">
+      <publishTime>11/14/2017 02:32:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/wp-embed.minf1c0.js">
+      <publishTime>10/01/2017 18:48:20</publishTime>
+    </File>
+    <File Include="assets/wp-includes/js/wplink.minf1c0.js">
+      <publishTime>11/14/2017 02:32:14</publishTime>
+    </File>
+    <File Include="assets/wp-includes/wlwmanifest.xml">
+      <publishTime>12/12/2013 02:49:12</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>12/18/2016 13:55:30</publishTime>
+    </File>
+    <File Include="bin/App.Admin.dll">
+      <publishTime>01/02/2018 22:59:53</publishTime>
+    </File>
+    <File Include="bin/App.Admin.dll.config">
+      <publishTime>12/21/2017 15:57:18</publishTime>
+    </File>
+    <File Include="bin/App.Admin.pdb">
+      <publishTime>01/02/2018 22:59:53</publishTime>
+    </File>
+    <File Include="bin/App.Aplication.dll">
+      <publishTime>01/02/2018 22:40:45</publishTime>
+    </File>
+    <File Include="bin/App.Aplication.dll.config">
+      <publishTime>10/30/2017 12:52:02</publishTime>
+    </File>
+    <File Include="bin/App.Aplication.pdb">
+      <publishTime>01/02/2018 22:40:45</publishTime>
+    </File>
+    <File Include="bin/App.AsyncService.dll">
+      <publishTime>10/30/2017 11:25:54</publishTime>
+    </File>
+    <File Include="bin/App.Core.dll">
+      <publishTime>12/31/2017 19:24:55</publishTime>
+    </File>
+    <File Include="bin/App.Core.dll.config">
+      <publishTime>10/30/2017 11:25:54</publishTime>
+    </File>
+    <File Include="bin/App.Core.pdb">
+      <publishTime>12/31/2017 19:24:55</publishTime>
+    </File>
+    <File Include="bin/App.Domain.dll">
+      <publishTime>12/31/2017 19:24:55</publishTime>
+    </File>
+    <File Include="bin/App.Domain.dll.config">
+      <publishTime>10/30/2017 11:25:54</publishTime>
+    </File>
+    <File Include="bin/App.Domain.pdb">
+      <publishTime>12/31/2017 19:24:55</publishTime>
+    </File>
+    <File Include="bin/App.FakeEntity.dll">
+      <publishTime>01/02/2018 22:59:44</publishTime>
+    </File>
+    <File Include="bin/App.FakeEntity.dll.config">
+      <publishTime>10/30/2017 12:44:12</publishTime>
+    </File>
+    <File Include="bin/App.FakeEntity.pdb">
+      <publishTime>01/02/2018 22:59:44</publishTime>
+    </File>
+    <File Include="bin/App.Framework.dll">
+      <publishTime>01/02/2018 22:40:46</publishTime>
+    </File>
+    <File Include="bin/App.Framework.dll.config">
+      <publishTime>12/21/2017 11:28:02</publishTime>
+    </File>
+    <File Include="bin/App.Framework.pdb">
+      <publishTime>01/02/2018 22:40:46</publishTime>
+    </File>
+    <File Include="bin/App.Front.dll">
+      <publishTime>01/02/2018 23:00:00</publishTime>
+    </File>
+    <File Include="bin/App.Front.pdb">
+      <publishTime>01/02/2018 23:00:00</publishTime>
+    </File>
+    <File Include="bin/App.Infra.Data.dll">
+      <publishTime>12/31/2017 16:37:15</publishTime>
+    </File>
+    <File Include="bin/App.Infra.Data.pdb">
+      <publishTime>12/31/2017 16:37:15</publishTime>
+    </File>
+    <File Include="bin/App.Infra.Data.Repository.dll">
+      <publishTime>12/31/2017 16:37:16</publishTime>
+    </File>
+    <File Include="bin/App.Infra.Data.Repository.pdb">
+      <publishTime>12/31/2017 16:37:16</publishTime>
+    </File>
+    <File Include="bin/App.Infra.Data.RepositoryAsync.dll">
+      <publishTime>12/31/2017 16:37:16</publishTime>
+    </File>
+    <File Include="bin/App.Infra.Data.RepositoryAsync.pdb">
+      <publishTime>12/31/2017 16:37:16</publishTime>
+    </File>
+    <File Include="bin/App.SeoSitemap.dll">
+      <publishTime>12/31/2017 19:24:55</publishTime>
+    </File>
+    <File Include="bin/App.SeoSitemap.dll.config">
+      <publishTime>10/30/2017 11:26:06</publishTime>
+    </File>
+    <File Include="bin/App.SeoSitemap.pdb">
+      <publishTime>12/31/2017 19:24:55</publishTime>
+    </File>
+    <File Include="bin/App.Service.dll">
+      <publishTime>01/02/2018 22:59:44</publishTime>
+    </File>
+    <File Include="bin/App.Service.dll.config">
+      <publishTime>10/30/2017 11:26:06</publishTime>
+    </File>
+    <File Include="bin/App.Service.pdb">
+      <publishTime>01/02/2018 22:59:44</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>12/20/2017 16:41:14</publishTime>
+    </File>
+    <File Include="bin/Autofac.dll">
+      <publishTime>08/18/2016 15:15:34</publishTime>
+    </File>
+    <File Include="bin/Autofac.Engine.dll">
+      <publishTime>12/22/2016 18:55:16</publishTime>
+    </File>
+    <File Include="bin/Autofac.Integration.Mvc.dll">
+      <publishTime>04/10/2017 15:40:32</publishTime>
+    </File>
+    <File Include="bin/Autofac.Integration.WebApi.dll">
+      <publishTime>10/24/2016 12:29:56</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>12/06/2017 15:08:08</publishTime>
+    </File>
+    <File Include="bin/en-US/Resources.resources.dll">
+      <publishTime>11/16/2017 00:07:34</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>10/08/2017 22:48:52</publishTime>
+    </File>
+    <File Include="bin/FluentValidation.dll">
+      <publishTime>10/24/2017 12:42:40</publishTime>
+    </File>
+    <File Include="bin/FluentValidation.Mvc.dll">
+      <publishTime>10/24/2017 12:42:40</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>10/23/2017 23:34:04</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.pdb">
+      <publishTime>10/23/2017 23:34:04</publishTime>
+    </File>
+    <File Include="bin/Kaliko.ImageLibrary.dll">
+      <publishTime>10/30/2017 11:26:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>11/30/2016 16:07:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>12/07/2016 11:45:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>12/06/2016 15:15:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>12/07/2016 11:49:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>12/06/2016 15:09:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Core.dll">
+      <publishTime>05/04/2017 02:25:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.TelemetryCorrelation.dll">
+      <publishTime>06/28/2017 15:05:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>08/15/2017 13:12:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>04/05/2017 11:53:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>04/05/2017 11:53:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>04/05/2017 11:53:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>04/05/2017 11:53:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>04/05/2017 11:53:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.SemanticLogging.dll">
+      <publishTime>12/15/2014 09:02:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.SemanticLogging.TextFile.dll">
+      <publishTime>12/15/2014 09:02:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/13/2012 12:19:34</publishTime>
+    </File>
+    <File Include="bin/Resources.dll">
+      <publishTime>12/31/2017 19:24:58</publishTime>
+    </File>
+    <File Include="bin/Resources.pdb">
+      <publishTime>12/31/2017 19:24:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.Process.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.DriveInfo.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Thread.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>06/27/2017 11:17:34</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>06/27/2014 02:04:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Abstractions.dll">
+      <publishTime>05/28/2014 18:35:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>06/27/2014 02:04:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>07/05/2013 13:09:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Routing.dll">
+      <publishTime>05/28/2014 18:35:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/Telematics.ConfigurationReader.dll">
+      <publishTime>12/15/2014 09:02:34</publishTime>
+    </File>
+    <File Include="bin/Telematics.CustomSinks.dll">
+      <publishTime>12/15/2014 09:02:34</publishTime>
+    </File>
+    <File Include="bin/vi-VN/Resources.resources.dll">
+      <publishTime>11/16/2017 00:07:34</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/10/2013 17:28:38</publishTime>
+    </File>
+    <File Include="Content/animate.css">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/animations.css">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>12/18/2017 17:47:44</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>12/18/2017 17:47:44</publishTime>
+    </File>
+    <File Include="Content/cssedit.css">
+      <publishTime>01/01/2018 23:17:05</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/owl.carousel.css">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/owl.theme.css">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/pricerange/slider.css">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/reset.min.css">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/royalslider/blank.gif">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/royalslider/grab.png">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/royalslider/grabbing.png">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/royalslider/preloader-white.gif">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/royalslider/preloader.gif">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/royalslider/royalslider.css">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/royalslider/royalslider.min.css">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/royalslider/rs-default.css">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/royalslider/rs-default.png">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>12/18/2017 17:47:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/27/2017 22:36:50</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/css3-animate-it.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/flaunt.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery.form.min.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery.min.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.2.2.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.2.2.min.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>12/20/2017 16:41:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>12/20/2017 16:41:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>12/20/2017 16:41:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>12/20/2017 16:41:12</publishTime>
+    </File>
+    <File Include="Scripts/jsedit.js">
+      <publishTime>12/29/2017 22:28:46</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Scripts/owl.carousel.js">
+      <publishTime>12/26/2017 13:43:16</publishTime>
+    </File>
+    <File Include="Scripts/page.js">
+      <publishTime>12/26/2017 11:39:30</publishTime>
+    </File>
+    <File Include="Scripts/pricerange/bootstrap-slider.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/range-price.min.js">
+      <publishTime>10/30/2017 21:43:30</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>12/19/2017 16:33:10</publishTime>
+    </File>
+    <File Include="Scripts/respond.matchmedia.addListener.js">
+      <publishTime>12/19/2017 16:33:10</publishTime>
+    </File>
+    <File Include="Scripts/respond.matchmedia.addListener.min.js">
+      <publishTime>12/19/2017 16:33:10</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>12/19/2017 16:33:10</publishTime>
+    </File>
+    <File Include="Scripts/royalslider/jquery.royalslider.min.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/uploadfile/custom.uploadfile.normal.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/uploadfile/jquery.filer-icons/jquery-filer-preview.html">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/uploadfile/jquery.filer-icons/jquery-filer.css">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/uploadfile/jquery.filer-icons/jquery-filer.eot">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/uploadfile/jquery.filer-icons/jquery-filer.svg">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/uploadfile/jquery.filer-icons/jquery-filer.ttf">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/uploadfile/jquery.filer-icons/jquery-filer.woff">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/uploadfile/jquery.filer.css">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/uploadfile/jquery.filer.min.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/validation/jquery.validate.min.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/validation/jquery.validate.unobtrusive.bootstrap.min.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Scripts/validation/jquery.validate.unobtrusive.min.js">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Banner/BannerHomeProduct.cshtml">
+      <publishTime>12/18/2017 14:10:06</publishTime>
+    </File>
+    <File Include="Views/Banner/BannerTop.cshtml">
+      <publishTime>12/26/2017 18:35:02</publishTime>
+    </File>
+    <File Include="Views/Banner/BannerTopOfNewsPage.cshtml">
+      <publishTime>12/22/2017 11:23:16</publishTime>
+    </File>
+    <File Include="Views/Banner/GetBannerBootom.cshtml">
+      <publishTime>12/18/2017 14:10:06</publishTime>
+    </File>
+    <File Include="Views/Banner/GetBannerFooter.cshtml">
+      <publishTime>12/18/2017 14:10:06</publishTime>
+    </File>
+    <File Include="Views/Banner/GetBannerLeft.cshtml">
+      <publishTime>12/18/2017 14:10:06</publishTime>
+    </File>
+    <File Include="Views/Banner/GetBannerMiddle.cshtml">
+      <publishTime>12/18/2017 14:10:06</publishTime>
+    </File>
+    <File Include="Views/Banner/GetBannerOnMenu.cshtml">
+      <publishTime>12/18/2017 14:10:06</publishTime>
+    </File>
+    <File Include="Views/Banner/GetBannerRight.cshtml">
+      <publishTime>12/18/2017 14:10:06</publishTime>
+    </File>
+    <File Include="Views/Banner/GetBannerSideBar.cshtml">
+      <publishTime>12/18/2017 14:10:06</publishTime>
+    </File>
+    <File Include="Views/Checkout/BillingAddress.cshtml">
+      <publishTime>12/18/2017 14:10:06</publishTime>
+    </File>
+    <File Include="Views/Checkout/Confirm.cshtml">
+      <publishTime>12/18/2017 14:10:06</publishTime>
+    </File>
+    <File Include="Views/Checkout/PaymentMethod.cshtml">
+      <publishTime>12/18/2017 14:10:06</publishTime>
+    </File>
+    <File Include="Views/Checkout/ShippingMethod.cshtml">
+      <publishTime>11/05/2017 14:14:18</publishTime>
+    </File>
+    <File Include="Views/Checkout/_Checkout.Cart.cshtml">
+      <publishTime>11/16/2017 23:23:08</publishTime>
+    </File>
+    <File Include="Views/Contact/ContactUs.cshtml">
+      <publishTime>12/26/2017 19:14:42</publishTime>
+    </File>
+    <File Include="Views/FlowStep/FlowStepDetail.cshtml">
+      <publishTime>12/25/2017 23:01:36</publishTime>
+    </File>
+    <File Include="Views/FlowStep/FlowStepHome.cshtml">
+      <publishTime>12/26/2017 22:52:52</publishTime>
+    </File>
+    <File Include="Views/GoogleMap/ShowGoogleMap.cshtml">
+      <publishTime>12/16/2017 11:46:50</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>12/18/2017 17:47:42</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>12/18/2017 17:47:42</publishTime>
+    </File>
+    <File Include="Views/Home/Error.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Home/FlowForm.cshtml">
+      <publishTime>12/26/2017 23:26:32</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>12/31/2017 18:48:50</publishTime>
+    </File>
+    <File Include="Views/Menu/GetAccesssories.cshtml">
+      <publishTime>12/18/2017 14:10:06</publishTime>
+    </File>
+    <File Include="Views/Menu/GetContent.cshtml">
+      <publishTime>12/30/2017 16:08:46</publishTime>
+    </File>
+    <File Include="Views/Menu/GetProductTab.cshtml">
+      <publishTime>12/18/2017 14:10:06</publishTime>
+    </File>
+    <File Include="Views/Menu/GetStaticContent.cshtml">
+      <publishTime>12/27/2017 21:19:36</publishTime>
+    </File>
+    <File Include="Views/Menu/GetStaticContentParent.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Menu/GetStaticHot.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/MenuNav/GetFixedHomePage.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/MenuNav/GetFooterLink.cshtml">
+      <publishTime>12/31/2017 19:37:06</publishTime>
+    </File>
+    <File Include="Views/MenuNav/GetMenuCategory.cshtml">
+      <publishTime>12/26/2017 10:57:18</publishTime>
+    </File>
+    <File Include="Views/MenuNav/GetMenuOnHomePage.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/MenuNav/GetMenuSideBar.cshtml">
+      <publishTime>12/27/2017 22:55:56</publishTime>
+    </File>
+    <File Include="Views/MenuNav/GetTopMenu.cshtml">
+      <publishTime>12/23/2017 22:53:16</publishTime>
+    </File>
+    <File Include="Views/MenuNav/GetTopMenuMobile.cshtml">
+      <publishTime>12/23/2017 23:54:14</publishTime>
+    </File>
+    <File Include="Views/MenuNav/Header.cshtml">
+      <publishTime>12/30/2017 22:30:27</publishTime>
+    </File>
+    <File Include="Views/MenuNav/MenuNavLeft.cshtml">
+      <publishTime>12/30/2017 13:24:36</publishTime>
+    </File>
+    <File Include="Views/MenuNav/StickyBar.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/News/BreadCrumNews.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/News/GetNewsByCategory.cshtml">
+      <publishTime>12/31/2017 19:20:05</publishTime>
+    </File>
+    <File Include="Views/News/GetNewsHome.cshtml">
+      <publishTime>12/31/2017 19:20:16</publishTime>
+    </File>
+    <File Include="Views/News/GetRelativeNews.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/News/NewsDetail.cshtml">
+      <publishTime>12/30/2017 16:17:12</publishTime>
+    </File>
+    <File Include="Views/News/NewsTimeLine.cshtml">
+      <publishTime>12/30/2017 16:16:30</publishTime>
+    </File>
+    <File Include="Views/Post/FillterProduct.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Post/GetNewProductRelative.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/Post/GetNewProductRelative2.cshtml">
+      <publishTime>12/26/2017 15:01:22</publishTime>
+    </File>
+    <File Include="Views/Post/GetPostAccessory.cshtml">
+      <publishTime>12/24/2017 22:54:16</publishTime>
+    </File>
+    <File Include="Views/Post/GetPostByCategory.cshtml">
+      <publishTime>12/26/2017 22:24:06</publishTime>
+    </File>
+    <File Include="Views/Post/GetPostRelative.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/Post/GetPostSameMenu.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/Post/GetProductHome.cshtml">
+      <publishTime>12/31/2017 19:24:18</publishTime>
+    </File>
+    <File Include="Views/Post/GetProductHot.cshtml">
+      <publishTime>12/26/2017 09:58:32</publishTime>
+    </File>
+    <File Include="Views/Post/GetProductTimeLine.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/Post/PostDetail.cshtml">
+      <publishTime>01/01/2018 23:19:51</publishTime>
+    </File>
+    <File Include="Views/Post/SearchResult.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/Post/_Footer.Product.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Post/_PostDetail.Attribute.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Profile/GetProfileCategory.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/SaleOff/GetSaleOffByCategory.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/SearchBox/GetAttributeSearchBox.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/SearchBox/SearchBoxSideBar.cshtml">
+      <publishTime>12/26/2017 10:43:22</publishTime>
+    </File>
+    <File Include="Views/SearchBox/SearchHome.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Shared/ChoiceTemplates/Choice.CheckRadio.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Shared/ChoiceTemplates/Choice.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/Shared/ChoiceTemplates/Choice.TextBox.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>12/18/2017 17:47:42</publishTime>
+    </File>
+    <File Include="Views/Shared/Socials/_Social.Email.cshtml">
+      <publishTime>01/02/2018 22:58:24</publishTime>
+    </File>
+    <File Include="Views/Shared/Socials/_Social.FB_like.cshtml">
+      <publishTime>12/30/2017 22:15:17</publishTime>
+    </File>
+    <File Include="Views/Shared/Socials/_Social.FB_Link.cshtml">
+      <publishTime>12/30/2017 22:10:23</publishTime>
+    </File>
+    <File Include="Views/Shared/Socials/_Social.FB_Page.cshtml">
+      <publishTime>01/01/2018 23:57:06</publishTime>
+    </File>
+    <File Include="Views/Shared/Socials/_Social.FB_Share.cshtml">
+      <publishTime>01/02/2018 22:57:30</publishTime>
+    </File>
+    <File Include="Views/Shared/Socials/_Social.GooglePlus_Link.cshtml">
+      <publishTime>12/26/2017 18:17:16</publishTime>
+    </File>
+    <File Include="Views/Shared/Socials/_Social.GooglePlus_Share.cshtml">
+      <publishTime>01/02/2018 22:59:36</publishTime>
+    </File>
+    <File Include="Views/Shared/Socials/_Social.Pinterest_Link.cshtml">
+      <publishTime>12/16/2017 17:41:46</publishTime>
+    </File>
+    <File Include="Views/Shared/Socials/_Social.Twitter _Link.cshtml">
+      <publishTime>01/02/2018 22:35:47</publishTime>
+    </File>
+    <File Include="Views/Shared/Socials/_Social.Twitter_Share.cshtml">
+      <publishTime>01/02/2018 22:58:33</publishTime>
+    </File>
+    <File Include="Views/Shared/Socials/_Social.Youtube_Link.cshtml">
+      <publishTime>12/26/2017 18:18:24</publishTime>
+    </File>
+    <File Include="Views/Shared/_BreadCrumb.cshtml">
+      <publishTime>12/26/2017 18:47:56</publishTime>
+    </File>
+    <File Include="Views/Shared/_ContactMap.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Shared/_ContactPartial.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Shared/_HomePageForm.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>01/02/2018 22:54:58</publishTime>
+    </File>
+    <File Include="Views/Shared/_PagedLinks.cshtml">
+      <publishTime>12/26/2017 09:36:52</publishTime>
+    </File>
+    <File Include="Views/Shared/_PartialFixItemContent.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/Shared/_PartialGallery.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/Shared/_PartialLeftFixItemHome.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/Shared/_PartialModalProductContact.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Shared/_PartialModelCheckStatus.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Shared/_PartialPostItems.cshtml">
+      <publishTime>12/26/2017 14:44:44</publishTime>
+    </File>
+    <File Include="Views/Shared/_PartialWarranty.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Shared/_RepairResult.cshtml">
+      <publishTime>11/08/2017 22:03:12</publishTime>
+    </File>
+    <File Include="Views/Shared/_Scripts.cshtml">
+      <publishTime>12/18/2017 00:20:48</publishTime>
+    </File>
+    <File Include="Views/Shared/_SlideProductHome.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/Shared/_StyleSheet.cshtml">
+      <publishTime>12/18/2017 00:02:12</publishTime>
+    </File>
+    <File Include="Views/ShoppingCart/Cart.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/ShoppingCart/OrderSummary.cshtml">
+      <publishTime>11/11/2017 11:44:28</publishTime>
+    </File>
+    <File Include="Views/ShoppingCart/_Cart.CartItem.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/ShoppingCart/_Order.Notification.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/ShoppingCart/_Order.TopCart.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/SlideShow/GetSlideShow.cshtml">
+      <publishTime>12/27/2017 21:40:44</publishTime>
+    </File>
+    <File Include="Views/StaticContent/GetHomeIntro.cshtml">
+      <publishTime>12/26/2017 08:30:48</publishTime>
+    </File>
+    <File Include="Views/StaticContent/GetSlogan.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/StaticContent/PostDetailPolices.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Summary/Footer.cshtml">
+      <publishTime>12/30/2017 22:07:25</publishTime>
+    </File>
+    <File Include="Views/Summary/GetAddressInfo.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Summary/GetContactHeader.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Summary/GetContactOrder.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Summary/GetHomeProduct.cshtml">
+      <publishTime>12/26/2017 07:48:02</publishTime>
+    </File>
+    <File Include="Views/Summary/GetLogo.cshtml">
+      <publishTime>01/01/2018 12:54:24</publishTime>
+    </File>
+    <File Include="Views/Summary/GetMeta.cshtml">
+      <publishTime>01/02/2018 22:54:53</publishTime>
+    </File>
+    <File Include="Views/Summary/GetMetaTagsSeo.cshtml">
+      <publishTime>12/30/2017 21:51:52</publishTime>
+    </File>
+    <File Include="Views/Summary/GetProvinceSearchBox.cshtml">
+      <publishTime>12/18/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Views/Summary/ScriptSippet.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Summary/_Footer.Address.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Summary/_Footer.Logo.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Summary/_Footer.Menu.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Summary/_Header.LogoMobile.cshtml">
+      <publishTime>12/29/2017 22:37:18</publishTime>
+    </File>
+    <File Include="Views/Summary/_Post.Address.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>10/30/2017 11:25:58</publishTime>
+    </File>
+    <File Include="Web.Debug.config">
+      <publishTime>12/21/2017 11:35:30</publishTime>
+    </File>
+    <File Include="Web.Release.config">
+      <publishTime>12/21/2017 11:35:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

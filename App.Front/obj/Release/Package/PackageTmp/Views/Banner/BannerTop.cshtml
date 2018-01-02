@@ -1,0 +1,26 @@
+﻿<!----BannerTop-->
+
+@using App.Aplication
+@model IEnumerable<App.Domain.Entities.Ads.Banner>
+@if (Model.IsAny())
+{
+    foreach (var item in Model)
+    {
+        <div class="header-media-wrap">
+            <div class="header-media">
+                <div class="banner-parallax " style='height: 300px;'>
+                    <div class="banner-bg-wrap">
+                        <div class="banner-inner" style='background-image: url(@(Url.Content("~/" + item.ImgPath))); '></div>
+                    </div>
+                </div>
+                <div class="banner-caption">
+                    <h1>@ViewBag.Title</h1>
+                    <h2></h2>
+
+
+                </div>
+            </div>
+        </div>        
+    }
+}
+<!----/BannerTop-->

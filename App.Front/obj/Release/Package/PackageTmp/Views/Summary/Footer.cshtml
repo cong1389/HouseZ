@@ -1,0 +1,83 @@
+﻿<!---Footer--->
+@model App.Domain.Entities.GlobalSetting.ContactInformation
+@if (Model != null)
+{
+    <footer id="footer-section">
+
+        <div class="footer footer-v2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div id="houzez_about_widget-2" class="footer-widget widget-about">
+                            @Html.Action("GetHomeIntro", "StaticContent", new { MenuId = 14, area = "" })
+                        </div>
+                    </div>
+
+                    <div id="divFooterAddress"></div>
+
+
+                    @Html.Action("GetFooterLink", "MenuNav", new { area = "" })
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div id="houzez_about_widget-2" class="footer-widget widget-about">
+                            <div class="widget-top">
+                                <h3 class="widget-title"> @T("Social.Lable")</h3>
+                            </div>
+                            @{Html.RenderPartial("Socials/_Social.FB_Page");}
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-sm-9">
+                        <div class="footer-col foot-social pull-left">
+                            <div id="divFooterContent"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="footer-col foot-social">
+                           
+                                Follow us
+                                @{Html.RenderPartial("Socials/_Social.FB_Link");}
+                                @{Html.RenderPartial("Socials/_Social.GooglePlus_Link");}
+                                @{Html.RenderPartial("Socials/_Social.Youtube_Link");}
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div><!-- End footer bottom -->
+
+    </footer>
+
+    
+                                    }
+
+<script>
+    jQuery(function () {
+
+        jQuery.post('@Url.Action("GetFooterAddress", "Summary")')
+        .done(function (data) {
+            jQuery("#divFooterAddress").html(data.list);
+        });
+
+        jQuery.post('@Url.Action("GetSystemSetting", "Summary")')
+        .done(function (data) {
+            if (data.list != null) {
+                jQuery("#divFooterContent").html(data.list.FooterContent);
+            }
+
+        });
+    })
+
+</script>
+
+<!---/GetInformationFooter--->

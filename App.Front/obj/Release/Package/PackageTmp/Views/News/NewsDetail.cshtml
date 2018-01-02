@@ -1,0 +1,63 @@
+﻿<!--NewsDetail---->
+@using App.Domain.Entities.Data
+@using App.Domain.Entities.Menu
+@model App.Domain.Entities.Data.News
+
+@if (Model != null)
+{
+    Html.Action("BannerTopOfNewsPage", "Banner", new { menuId = ViewBag.BannerId, title = ViewBag.Title });
+
+    <section class="section-detail-content blog-page">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="page-title breadcrumb-single">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                @Html.Partial("_BreadCrumb")
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 container-contentbar">
+                    <div class="article-main">
+                        <article class="blog-article">
+                            <div class="page-title">
+                                <h2>@Model.Title</h2>
+                                <ul class="author-meta">
+                                    <li><i class="fa fa-calendar"></i> @Model.CreatedDate.ToString("dd/MM/yyyy") </li>
+                                </ul>
+                            </div>
+
+                            <div class="article-media">
+                                <img width="810" height="430" src="@Url.Content("~/" + Model.ImageMediumSize)" alt="@Model.Title" title="@Model.Title"
+                                     class="attachment-houzez-property-detail-gallery size-houzez-property-detail-gallery wp-post-image">
+                            </div>
+
+
+                            <div class="article-detail">
+                                @Html.Raw(@Model.Description)
+                            </div>
+                        </article>
+
+
+                        @{Html.RenderAction("GetRelativeNews", "News", new { virtualId = Model.MenuLink.VirtualId, newsId = Model.Id, area = "" });}
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-md-offset-0 col-sm-offset-3 container-sidebar ">
+                    <aside id="sidebar" class="sidebar-white">
+                        @Html.Action("NewsTimeLine", "News", new { area = "" })
+                        @Html.Action("MenuNavLeft", "MenuNav", new { virtualId = Model.VirtualCategoryId, area = "" })
+                        @Html.Action("GetProductHot", "Post", new { area = "" })
+                    </aside>
+                </div>
+
+            </div>
+        </div>
+    </section>
+                            }
+<!--/NewsDetail---->

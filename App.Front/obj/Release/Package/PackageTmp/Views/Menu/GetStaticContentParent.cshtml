@@ -1,0 +1,26 @@
+﻿<!--GetStaticContentParent---->
+@using App.Domain.Entities.Menu
+@using App.Aplication
+@using Resources
+@model App.Domain.Entities.Data.StaticContent
+
+@if (Model != null)
+{
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="page-main">
+            <div class="white-block ">
+                <article id="post-692" class="post-692 page type-page status-publish hentry">
+                    @Html.Raw(Model.Description)
+                </article>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="container">
+        <p class="text-danger">@MessageUI.EmptyData</p>
+    </div>
+
+}
+<!--/GetStaticContentParent---->

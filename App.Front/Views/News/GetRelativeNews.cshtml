@@ -1,0 +1,54 @@
+﻿<!---GetRelativeNews-->
+
+@using App.Aplication
+@model IEnumerable<App.Domain.Entities.Data.News>
+@if (Model.IsAny())
+{
+    <div class="blog-section">
+        <h3 class="blog-section-title">Tin liên quan</h3>
+        <div class="row grid-row">
+            @foreach (var item in Model)
+            {
+                <div class="col-sm-4">
+
+                    <div class="item-wrap">
+                        <div id="post-629" class="post-card-item post-629 post type-post status-publish format-standard has-post-thumbnail hentry category-business tag-apartment tag-business-development tag-house-for-families tag-houzez tag-luxury tag-real-estate">
+                            <div class="figure-block">
+                                <figure class="item-thumb">
+                                    <a href="@Url.Action("NewsDetail", "News", new {seoUrl = item.SeoUrl, area = ""})" title="@item.Title" class="hover-effect">
+                                        <img width="385" height="258" src="@Url.Content("~/" + item.ImageMediumSize)" alt="@item.Title"
+                                             class="attachment-houzez-property-thumb-image size-houzez-property-thumb-image wp-post-image"
+                                             srcset="@Url.Content("~/" + item.ImageMediumSize) 385w
+                                             , @Url.Content("~/" + item.ImageMediumSize) 300w
+                                             , @Url.Content("~/" + item.ImageMediumSize) 768w
+                                             , @Url.Content("~/" + item.ImageMediumSize) 1024w
+                                             , @Url.Content("~/" + item.ImageMediumSize) 150w
+                                             , @Url.Content("~/" + item.ImageMediumSize) 350w
+                                             , @Url.Content("~/" + item.ImageMediumSize) 1170w" sizes="(max-width: 385px) 100vw, 385px">
+                                    </a>
+                                    <figcaption class="thumb-caption clearfix">
+                                        <div class="file-type pull-left"><i class="fa fa-file"></i></div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="post-card-body">
+
+                                <div class="post-card-description">
+                                    <ul class="list-inline">
+                                        <li><time datetime="March 9, 2016"><i class="fa fa-calendar"></i> @string.Format("{0:dd/MM/yyyy}", item.CreatedDate)</time></li>                                        
+                                    </ul>
+                                    <h3 class="post-card-title">@item.Title</h3>
+                                    @Html.Raw(item.ShortDesc)
+                                    <a href="@Url.Action("NewsDetail", "News", new {seoUrl = item.SeoUrl, area = ""})" class="read">@T("XemChiTiet") <i class="fa fa-caret-right"></i></a>
+                                </div>                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+<!---/GetRelativeNews-->

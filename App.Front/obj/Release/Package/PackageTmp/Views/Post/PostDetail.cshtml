@@ -1,0 +1,223 @@
+﻿<!---PostDetail--->
+@using Resources
+@using App.Aplication
+@model App.Domain.Entities.Data.Post
+
+@if (Model != null)
+{
+    <section class="detail-top detail-top-slideshow">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="header-detail">
+                        <div class="header-left">
+                            @{Html.RenderPartial("_BreadCrumb");}
+                            <div class="table-list">
+                                <div class="table-cell"><h1>   @Html.Raw(Model.Title)</h1></div>
+                            </div>
+                        </div>
+                        @*<div class="header-right">
+                            <ul class="actions">
+                            <li class="share-btn">
+
+                            <div class="share_tooltip tooltip_left fade">
+                            <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fhouzez02.favethemes.com%2Fproperty%2Fluxury-apartment-bay-view%2F" onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/intent/tweet?text=Luxury+apartment+bay+view&amp;url=http%3A%2F%2Fhouzez02.favethemes.com%2Fproperty%2Fluxury-apartment-bay-view%2F&amp;via=Houzez" onclick="if(!document.getElementById('td_social_networks_buttons')){window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;}"><i class="fa fa-twitter"></i></a>
+                            <a href="http://houzez02.favethemes.com/../pinterest.com/pin/create/button/index936a.html?url=http%3A%2F%2Fhouzez02.favethemes.com%2Fproperty%2Fluxury-apartment-bay-view%2F&amp;media=http://houzez02.favethemes.com/wp-content/uploads/2016/03/chicago-05-1024x688.jpg" onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"><i class="fa fa-pinterest"></i></a>
+                            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fhouzez02.favethemes.com%2Fproperty%2Fluxury-apartment-bay-view%2F&amp;title=Luxury+apartment+bay+view&amp;source=http%3A%2F%2Fhouzez02.favethemes.com%2F" onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"><i class="fa fa-linkedin"></i></a>
+                            <a href="http://plus.google.com/share?url=http%3A%2F%2Fhouzez02.favethemes.com%2Fproperty%2Fluxury-apartment-bay-view%2F" onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"><i class="fa fa-google-plus"></i></a>
+                            <a href="mailto:example.com?subject=Luxury+apartment+bay+view&body=http%3A%2F%2Fhouzez02.favethemes.com%2Fproperty%2Fluxury-apartment-bay-view%2F"><i class="fa fa-envelope"></i></a>
+                            </div>
+                            <span title="" data-placement="right" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
+                            </li>
+                            <li class="fvrt-btn">
+                            <span class="add_fav" data-placement="right" data-toggle="tooltip" data-original-title="Favorite" data-propid="341"><i class="fa fa-heart-o"></i></span>
+                            </li>
+                            <li class="print-btn">
+                            <span data-toggle="tooltip" data-placement="right" data-original-title="Print"><i id="houzez-print" class="fa fa-print" data-propid="341"></i></span>
+                            </li>
+                            </ul>
+                            <span class="item-price">$987,000</span><span class="item-sub-price">$6,350&#47;sq ft</span>
+                            </div>*@
+                    </div>
+                </div>
+            </div>
+            @if (Model.PostGallerys.IsAny())
+            {
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <div class="detail-media">
+                            <div class="tab-content">
+                                <div id="gallery" class="tab-pane fade in active">
+                                    <span class="label-wrap visible-sm visible-xs">
+                                        <span class="label label-primary label-status-7">For Sale</span>
+                                    </span>
+                                    <div class="detail-slider-wrap">
+                                        <div class="detail-slider owl-carousel owl-theme">
+                                            @foreach (var item in Model.PostGallerys)
+                                            {
+                                                <div class="item" style="background-image: url(@Url.Content("~/" + item.ImageBigSize))">
+                                                    <a class="popup-trigger banner-link" href="#"></a>
+                                                </div>
+                                            }
+                                        </div>
+                                        <div class="detail-slider-nav-wrap">
+                                            <div class="detail-slider-nav owl-carousel owl-theme">
+                                                @foreach (var item in Model.PostGallerys)
+                                                {
+                                                    <div class="item">
+                                                        <img src="@Url.Content("~/" + item.ImageSmallSize)" alt="inner-living-room-3" width="100" height="70" />
+                                                    </div>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="singlePropertyMap" class="tab-pane fade ">
+                                    <div class="mapPlaceholder">
+                                        <div class="loader-ripple">
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input type="hidden" id="securityHouzezMap" name="securityHouzezMap" value="86d4555a46" /><input type="hidden" name="_wp_http_referer" value="/property/luxury-apartment-bay-view/?s_top=v4" />                            <input type="hidden" name="prop_id" id="prop_id" value="341" />
+
+                                <div id="street-map" class="tab-pane fade "></div>
+
+                            </div>
+                            @*<div class="media-tabs">
+                                <ul class="media-tabs-list">
+                                <li class="popup-trigger" data-placement="bottom" data-toggle="tooltip" data-original-title="View Photos">
+                                <a href="#gallery" data-toggle="tab">
+                                <i class="fa fa-camera"></i>
+                                </a>
+                                </li>
+
+                                <li data-placement="bottom" data-toggle="tooltip" data-original-title="Map View">
+                                <a href="#singlePropertyMap" data-toggle="tab">
+                                <i class="fa fa-map"></i>
+                                </a>
+                                </li>
+
+                                <li data-placement="bottom" data-toggle="tooltip" data-original-title="Street View ">
+                                <a href="#street-map" data-toggle="tab">
+                                <i class="fa fa-street-view"></i>
+                                </a>
+                                </li>
+
+                                </ul>
+                                <ul class="actions">
+                                <li class="share-btn">
+
+                                <div class="share_tooltip tooltip_left fade">
+                                <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fhouzez02.favethemes.com%2Fproperty%2Fluxury-apartment-bay-view%2F" onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"><i class="fa fa-facebook"></i></a>
+                                <a href="https://twitter.com/intent/tweet?text=Luxury+apartment+bay+view&amp;url=http%3A%2F%2Fhouzez02.favethemes.com%2Fproperty%2Fluxury-apartment-bay-view%2F&amp;via=Houzez" onclick="if(!document.getElementById('td_social_networks_buttons')){window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;}"><i class="fa fa-twitter"></i></a>
+                                <a href="http://houzez02.favethemes.com/../pinterest.com/pin/create/button/index936a.html?url=http%3A%2F%2Fhouzez02.favethemes.com%2Fproperty%2Fluxury-apartment-bay-view%2F&amp;media=http://houzez02.favethemes.com/wp-content/uploads/2016/03/chicago-05-1024x688.jpg" onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"><i class="fa fa-pinterest"></i></a>
+                                <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fhouzez02.favethemes.com%2Fproperty%2Fluxury-apartment-bay-view%2F&amp;title=Luxury+apartment+bay+view&amp;source=http%3A%2F%2Fhouzez02.favethemes.com%2F" onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"><i class="fa fa-linkedin"></i></a>
+                                <a href="http://plus.google.com/share?url=http%3A%2F%2Fhouzez02.favethemes.com%2Fproperty%2Fluxury-apartment-bay-view%2F" onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"><i class="fa fa-google-plus"></i></a>
+                                <a href="mailto:example.com?subject=Luxury+apartment+bay+view&body=http%3A%2F%2Fhouzez02.favethemes.com%2Fproperty%2Fluxury-apartment-bay-view%2F"><i class="fa fa-envelope"></i></a>
+                                </div>
+                                <span title="" data-placement="right" data-toggle="tooltip" data-original-title="share"><i class="fa fa-share-alt"></i></span>
+                                </li>
+                                <li>
+                                <span class="add_fav" data-placement="right" data-toggle="tooltip" data-original-title="Favorite" data-propid="341"><i class="fa fa-heart-o"></i></span>
+                                </li>
+                                </ul>
+                                </div>*@
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+
+
+    <section class="section-detail-content">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 container-contentbar">
+
+                    <div class="detail-bar">
+                        <div id="description" class="property-description detail-block target-block">
+                            <div class="detail-title">
+                                <h2 class="title-left">@T("MoTa")</h2>
+                            </div>
+                            @Html.Raw(Model.Description)
+                        </div>
+
+                        <div id="detail" class="detail-list detail-block target-block">
+                            <div class="detail-title">
+                                <h2 class="title-left">@T("ChiTiet")</h2>
+                                <div class="title-right">
+                                    <p>@Model.CreatedDate.ToString("dd/MM/yyyy") </p>
+                                </div>
+
+                            </div>
+
+                            <div id="divAttribute"></div>
+
+                            @{Html.RenderAction("GetNewProductRelative2", "Post", new { area = "", virtualId = Model.MenuLink.VirtualId, productId = Model.Id });}
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-md-offset-0 col-sm-offset-3 container-sidebar houzez_sticky">
+                    <aside id="sidebar" class="sidebar-white">
+                        <div id="houzez_properties_viewed-2" class="widget widget_houzez_featured_properties">
+                            @Html.Action("GetProductHot", "Post", new { area = "" })
+                        </div>
+
+                        <div class="footer-col foot-social">
+                            <div class="pull-left" style="margin-right:5px">@{Html.RenderPartial("Socials/_Social.FB_Share"); }</div>
+                            <div class="pull-left" style="margin-right:5px">@{Html.RenderPartial("Socials/_Social.FB_like"); }</div>                            
+                            
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+                                }
+
+@section stylesheets
+{
+
+}
+
+@section jquerys{
+
+}
+
+@section facebook
+{
+
+}
+@section google
+{
+
+}
+
+<script>
+
+            jQuery(function () {
+                'use strict';
+
+               var menuId =@(Model.Id > 0? Model.MenuId: -1);
+
+                jQuery.post('@Url.Action("GetByMenuId", "Post")'
+            , { "menuId": menuId, "entityId": @Model.Id })
+            .done(function (data) {
+                if (data.success ==true )
+                {
+                    jQuery("#divAttribute").html(data.list);
+                }
+            });
+
+            })
+
+</script>
+
+<!---/PostDetail---->

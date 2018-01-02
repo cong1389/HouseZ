@@ -1,0 +1,20 @@
+﻿<!--_PostDetail.Attribute-->
+@using App.Aplication
+@model IEnumerable<App.FakeEntity.GenericControl.ControlValueItemResponse>
+
+@if (Model.IsAny())
+{
+    int i = 0;
+
+    <div class="alert alert-info">
+        <ul class="list-three-col">
+            @foreach (var controlValueItemResponse in Model)
+            {
+                <li><strong>@controlValueItemResponse.Name:</strong> @controlValueItemResponse.ValueName</li>
+                i++;
+            }      
+        </ul>
+    </div>    
+}
+
+<!--/_PostDetail.Attribute-->

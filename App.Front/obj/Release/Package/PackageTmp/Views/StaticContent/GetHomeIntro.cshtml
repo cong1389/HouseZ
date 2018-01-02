@@ -1,0 +1,13 @@
+﻿<!---GetHomeIntro--->
+@using App.Domain.Entities.Menu
+@model App.Domain.Entities.Data.StaticContent
+
+<div class="widget-top"><h3 class="widget-title"> @Model.Title</h3></div>
+<div class="widget-body">
+
+    @Html.Raw(Model.ShortDesc)
+    <p class="read">
+    @*<a href="@Url.Action("GetContent","Menu",new { menu= Model.SeoUrl,area="" })">@T("XemThem") <i class="fa fa-caret-right"></i></a>*@</p>
+</div>
+
+<!---/GetHomeIntro--->

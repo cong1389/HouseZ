@@ -1,0 +1,49 @@
+﻿<!--GetSlideShow -->
+
+@using App.Aplication
+@model IEnumerable<App.Domain.Entities.Slide.SlideShow>
+@if (Model.IsAny())
+{
+    <div class="header-media-wrap">
+        <div class="header-media banner-module">
+            <div id="banner-slider" class="banner-slider slide-animated owl-carousel owl-theme">
+                @foreach (var item in Model)
+                {
+                    <div class="item " style="background-image: url(@Url.Content("~/"+item.ImgPath))">
+                        <a href="@item.WebsiteLink" target="@item.Target" title="@item.Title" class="banner-link"></a>
+                        <div class="slider-caption caption-desktop hidden-xs">
+                            <a href="@item.WebsiteLink" target="@item.Target" class="btn btn-primary btn-detail">@T("XemThem") <i class="fa fa-angle-right"></i></a>
+                            <div class="item-body">
+                                <div class="body-left">
+                                    <div class="info-row">
+                                        <p class="property-title"><a href="@item.WebsiteLink">@item.Title</a></p>
+                                    </div>
+                                    <div class="info-row amenities">
+                                        @Html.Raw(item.Description)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-caption caption-mobile visible-xs">
+                            <div class="item-body table-list">
+                                <div class="body-left table-cell">
+                                    <div class="info-row">
+                                        <p class="property-title"><a href="@item.WebsiteLink">@item.Title</a></p>
+                                    </div>
+                                    <div class="info-row price">
+                                        @Html.Raw(item.Description)
+                                    </div>
+                                </div>
+                                <a href="@item.WebsiteLink" target="@item.Target" class="btn btn-primary btn-detail table-cell"><i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <a href="@item.WebsiteLink">
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}
+
+<!--/GetSlideShow -->

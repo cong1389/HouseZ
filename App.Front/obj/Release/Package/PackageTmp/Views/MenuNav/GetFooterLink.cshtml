@@ -1,0 +1,38 @@
+﻿<!----GetFooterLink-->
+@using App.Aplication
+@using App.FakeEntity.Menu
+@model IEnumerable<App.FakeEntity.Menu.MenuNavViewModel>
+
+@if (Model.IsAny())
+{
+    int i = 0;
+
+    foreach (MenuNavViewModel item in Model)
+    {
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div id="houzez_contact-4" class="footer-widget widget-contact">
+                <div class="widget-top">
+                    <h3 class="widget-title"> @item.MenuName</h3>
+                </div>
+                <div class="widget-body">
+                    <div class="contact_text"></div>
+                    <ul class="list-unstyled">
+                        @foreach (var lv1 in item.ChildNavMenu)
+                        {
+                            if (!string.IsNullOrEmpty(lv1.OtherLink))
+                            {
+                                <li><i class="fa fa-angle-right"></i> <a href="@lv1.OtherLink">@lv1.MenuName</a></li>
+                            }
+                            else
+                            {
+                                <li><i class="fa fa-angle-right"></i> <a href="@Url.Action("GetContent", "Menu", new { menu = lv1.SeoUrl, area = "" })">@lv1.MenuName</a></li>
+                            }
+                            i++;
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    }
+}
+<!----/GetFooterLink-->

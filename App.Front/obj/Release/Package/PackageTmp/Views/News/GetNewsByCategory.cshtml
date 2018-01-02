@@ -1,0 +1,88 @@
+﻿<!--GetNewsByCategory---->
+@using App.Domain.Entities.Data
+@using App.Domain.Common
+@using App.Domain.Entities.Menu
+@using App.Aplication
+@model IEnumerable<App.Domain.Entities.Data.News>
+@if (Model.IsAny())
+{
+    Html.Action("BannerTopOfNewsPage", "Banner", new { menuId = ViewBag.MenuId, title = ViewBag.Title });
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-title breadcrumb-single">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            @Html.Partial("_BreadCrumb")
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 container-contentbar">
+                <div class="article-main">
+                    @foreach (var item in Model)
+                        {
+                    <article id="post-637" class="blog-article post-637 post type-post status-publish format-standard has-post-thumbnail hentry category-business tag-apartment tag-business-development tag-house-for-families tag-houzez tag-luxury tag-real-estate">
+
+                        <div class="article-media">
+                            <a class="post-thumbnail" href="@Url.Action("NewsDetail", "News", new {seoUrl = item.SeoUrl, area = ""})" title="@item.Title">
+                                <img width="810" height="430" src="@Url.Content("~/" + item.ImageMediumSize)" class="attachment-houzez-property-detail-gallery size-houzez-property-detail-gallery wp-post-image"
+                                     alt="@item.Title" title='@item.Title' />
+                            </a>
+                        </div>
+
+                        <div class="article-detail">
+                            <h1 class="article-title">
+                                <a href="@Url.Action("NewsDetail", "News", new {seoUrl = item.SeoUrl, area = ""})" title="@item.Title" rel="bookmark">
+                                    @item.Title
+                                </a>
+                            </h1>
+                            @Html.Raw(item.ShortDesc)
+                        </div>
+                        <div class="article-footer">
+                            <ul class="author-meta">
+                                <li><i class="fa fa-calendar"></i> @item.CreatedDate.ToString("dd/MM/yyyy") </li>
+                            </ul>
+                            <div class="article-footer-right">
+                                <a href="@Url.Action("NewsDetail", "News", new {seoUrl = item.SeoUrl, area = ""})" title="@item.Title" class="btn btn-primary">@T("XemChiTiet")</a>
+                            </div>
+                        </div>
+                    </article>
+                        }
+                    <hr>
+                    <!--start pagination-->
+                    @{Html.RenderPartial("_PagedLinks");}
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 col-md-offset-0 col-sm-offset-3 container-sidebar ">
+                <aside id="sidebar" class="sidebar-white">
+                    @Html.Action("NewsTimeLine", "News", new { area = "" })
+                    @Html.Action("MenuNavLeft", "MenuNav", new { virtualId = ViewBag.VirtualId, area = "" })
+                    @Html.Action("GetProductHot", "Post", new { area = "" })
+                </aside>
+            </div>
+        </div>
+    </div>
+
+
+                        }
+                        else
+                        {
+                            <div class="container">
+
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h2>
+                                            @Html.Raw("Không có dữ liệu");
+                                        </h2>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        }
+
+<!--/GetNewsByCategory---->

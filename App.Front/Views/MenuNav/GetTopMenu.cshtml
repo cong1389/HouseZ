@@ -1,0 +1,48 @@
+﻿<!----GetTopMenu ---->
+@using App.Domain.Common
+@using App.Front.Models
+@using App.Aplication
+@using App.Domain.Entities.Menu
+@using Resources
+@using App.FakeEntity.Menu
+@model IEnumerable<MenuNavViewModel>
+
+@if (Model != null)
+{
+    <nav class="navi main-nav">
+        <ul id="main-nav" class="">
+            @foreach (MenuNavViewModel lv1 in Model)
+            {
+                <li id="menu-item-@lv1.MenuId" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-352">
+                    <a href="@(lv1.OtherLink = lv1.OtherLink !=null? lv1.OtherLink : Url.Action("GetContent", "Menu", new {menu = lv1.SeoUrl , area = ""}) )"
+                       title="@lv1.MenuName">@lv1.MenuName</a>
+                    @if (lv1.ChildNavMenu.IsAny())
+                    {
+                        <ul class="sub-menu">
+                            @foreach (var lv2 in lv1.ChildNavMenu)
+                            {
+                                <li id="menu-item-1340" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1340">
+                                    <a href="@Url.Action("GetContent", "Menu", new {menu = lv2.SeoUrl, area = ""})" title="@lv2.MenuName">@lv2.MenuName</a>
+                                    @if (lv2.ChildNavMenu.IsAny())
+                                    {
+                                        <ul class="sub-menu">
+                                            @foreach (var lv3 in lv2.ChildNavMenu)
+                                            {
+                                                <li id="menu-item-@lv3.MenuId" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-339">
+                                                    <a href="@Url.Action("GetContent", "Menu", new {menu = lv3.SeoUrl, area = ""})" title="@lv3.MenuName">@lv3.MenuName</a>
+                                                </li>
+                                            }
+                                        </ul>
+                                    }
+                                </li>
+                            }
+                        </ul>
+                    }
+                </li>
+            }
+        </ul>
+    </nav>
+}
+
+
+<!----/GetTopMenu ---->

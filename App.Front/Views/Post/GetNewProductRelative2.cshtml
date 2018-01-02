@@ -1,0 +1,80 @@
+﻿<!---GetNewProductRelative2--->
+@using App.Aplication
+@using Resources
+@model IEnumerable<App.Domain.Entities.Data.Post>
+@if (Model.IsAny())
+{
+    <div class="property-similer">
+        <div class="detail-title">
+            <h2 class="title-left">@T("ProductReleate.Lable")</h2>
+        </div>
+        <div class="property-listing grid-view">
+            <div class="row">
+                @foreach (var product in Model)
+                {
+                    <div id="ID-@(product.Id)" class="item-wrap infobox_trigger item-relaxing-apartment-ocean-view">
+                        <div class="property-item table-list">
+                            <div class="table-cell">
+                                <div class="figure-block">
+                                    <figure class="item-thumb">
+                                        @Html.Raw(@product.ProductHot ? "<div class=\"label-wrap hide-on-grid\"><span class=\"label-status label-status-8 label label-default\"><a href=\"#\">" + FormUI.ProductHot + "</a></span></div>" : "")
+
+                                        <a class="hover-effect" href="@Url.Action("PostDetail", "Post", new {seoUrl = product.SeoUrl, area = ""})" title="@product.Title">
+                                            <img width="385" height="258" src="@Url.Content("~/" + product.ImageMediumSize)" alt="@product.Title"
+                                                 class="attachment-houzez-property-thumb-image size-houzez-property-thumb-image wp-post-image"
+                                                 srcset="@Url.Content("~/" + product.ImageMediumSize) 385w
+                                                 , @Url.Content("~/" + product.ImageMediumSize) 300w
+                                                 , @Url.Content("~/" + product.ImageMediumSize) 768w
+                                                 , @Url.Content("~/" + product.ImageMediumSize) 1024w
+                                                 , @Url.Content("~/" + product.ImageMediumSize) 150w
+                                                 , @Url.Content("~/" + product.ImageMediumSize) 350w
+                                                 , @Url.Content("~/" + product.ImageMediumSize) 1170w" sizes="(max-width: 385px) 100vw, 385px" />
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="item-body table-cell">
+                                <div class="body-left table-cell">
+                                    <div class="info-row">
+                                        <h2 class="property-title">
+                                            <a href="@Url.Action("PostDetail", "Post", new {seoUrl = product.SeoUrl, area = ""})" title="@product.Title">@product.Title</a>
+                                        </h2>
+                                    </div>
+                                    <div class="info-row date hide-on-grid">
+                                        <p class="prop-user-agent">
+                                            <i class="fa fa-calendar"></i>@product.CreatedDate.ToString("dd/MM/yyyy")
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="table-list full-width hide-on-list">
+                                    <div class="cell">
+                                        <div class="info-row amenities">
+                                            @Html.Raw(product.ShortDesc)
+                                        </div>
+                                    </div>
+                                    <div class="cell">
+                                        <div class="phone">
+                                            <a href="@Url.Action("PostDetail", "Post", new {seoUrl = product.SeoUrl, area = ""})" title="@product.Title" class="btn btn-primary">
+                                                @T("XemThem") <i class="fa fa-angle-right fa-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-foot date hide-on-list">
+                            <div class="item-foot-left">
+                                <p class="prop-user-agent">
+                                    <i class="fa fa-calendar"></i>@product.CreatedDate.ToString("dd/MM/yyyy")
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                }
+            </div>
+        </div>
+        <hr>
+    </div>
+}
+<!---/GetNewProductRelative2--->

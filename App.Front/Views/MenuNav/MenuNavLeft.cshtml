@@ -1,0 +1,41 @@
+﻿<!----MenuNavLeft--->
+@using App.Domain.Common
+@using App.Aplication
+@using App.FakeEntity.Menu
+@model IEnumerable<MenuNavViewModel>
+
+@if (Model.IsAny())
+{
+    int i = 0;
+    int j = 0;
+
+
+    <div id="houzez_property_taxonomies-3" class="widget widget-categories">
+        <div class="widget-top">
+            <h3 class="widget-title">@T("DanhMuc")</h3>
+        </div>
+        <div class="widget-body">
+            <ul class="children">
+                @foreach (MenuNavViewModel lv1 in Model)
+                {
+                    <li>
+                        <a href="@Url.Action("GetContent","Menu",new {menu=lv1.SeoUrl, area="" })">@lv1.MenuName</a>
+                        @if (lv1.ChildNavMenu != null && lv1.ChildNavMenu.Any())
+                        {
+                            <ul class="children">
+                                @foreach (MenuNavViewModel lv2 in lv1.ChildNavMenu)
+                                {
+                                    <li>
+                                        <a href="@Url.Action("GetContent", "Menu", new { menu = lv2.SeoUrl, area = "" })">@lv2.MenuName</a>
+                                    </li>
+                                }
+                            </ul>
+                        }
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+
+}
+<!----/MenuNavLeft--->

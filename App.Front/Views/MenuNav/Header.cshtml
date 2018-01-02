@@ -1,0 +1,72 @@
+﻿<!---Header--->
+@using App.Domain.Common
+@using App.Front.Models
+@using App.Aplication
+@using App.Domain.Entities.Menu
+@using Resources
+@using App.FakeEntity.Menu
+@model IEnumerable<MenuNavViewModel>
+
+@if (Model != null)
+{
+    <header id="header-section" data-sticky="0" class="houzez-header-main header-section header-section-1 nav-left  houzez-user-logout">
+        <div class="container">
+            <div class="header-left">
+                @Html.Action("GetLogo", "Summary", new { area = "" })
+
+                @Html.Action("GetTopMenu", "MenuNav", new { area = "" })
+
+                <div class="top-cart col-sm-2 ">
+                    <div class="header-tool search">
+                        <div class="language">
+                            <ul class="list-inline text-right">
+                                <li class='active'><a href="@Url.Action("SetLanguage", "Common", new { langid = 1, returnUrl = this.Request.RawUrl }, null)"><img src="assets/flag-vn.png" /><p class="hidden-xs hidden-sm"></p></a></li>
+                                <li><a href="@Url.Action("SetLanguage", "Common", new {langid = 2, returnUrl =this.Request.RawUrl},null)"><img src="assets/flag-en.png" /><p class="hidden-xs hidden-sm"></p></a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hidden header-right">
+
+                <div class="user">
+                    <a href="#" data-toggle="modal" data-target="#pop-login"><i class="fa fa-user hidden-md hidden-lg"></i> <span class="hidden-sm hidden-xs">Sign In / Register</span></a><a href="add-new-property/index.html" class="btn btn-default hidden-xs hidden-sm">Create Listing</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="header-mobile houzez-header-mobile " data-sticky="0">
+        <div class="container">
+            <!--start mobile nav-->
+            <div class="mobile-nav">
+                <span class="nav-trigger"><i class="fa fa-navicon"></i></span>
+                <div class="nav-dropdown main-nav-dropdown"></div>
+            </div>
+            <!--end mobile nav-->
+            <div class="header-logo logo-mobile">
+                <a href="@Url.Action("Index", "Home", new { area = "" })">
+                    <div id="divLogoMobile"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+}
+<script>
+    jQuery(function () {
+
+        jQuery.post('@Url.Action("GetLogoMobile", "Summary")')
+          .done(function (data) {
+              var divLogo = '<img src="' + data.list.LogoImage + '" /> ';
+              jQuery("#divLogoMobile").html(divLogo);
+          });
+    })
+
+</script>
+<!---/Header--->

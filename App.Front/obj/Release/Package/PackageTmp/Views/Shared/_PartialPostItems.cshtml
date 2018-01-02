@@ -1,0 +1,78 @@
+﻿<!---_PartialPostItems--->
+
+@using App.Domain.Common
+@using App.Aplication
+@using Resources
+@model IEnumerable<App.Domain.Entities.Data.Post>
+@if (Model.IsAny())
+{
+    var post1 = Model.Where(m => m.Id % 2 == 0 && (m.ProductHot || (m.ProductNew && m.ProductHot))).Take(15);
+    var post2 = Model.Where(m => m.Id % 2 != 0 && (m.ProductHot || (m.ProductNew && m.ProductHot))).Take(15);
+
+    <div id="houzez_featured_properties-16" class="widget widget_houzez_featured_properties">
+        <div class="widget-top"><h3 class="widget-title">@FormUI.ProductNew</h3></div>
+
+        <div class="widget-body">
+            <div class="property-widget-slider slide-animated owl-carousel owl-theme">
+                @foreach (var item in post1)
+                {
+                    <div class="item">
+                        <div class="figure-block">
+                            <figure class="item-thumb">
+                                @Html.Raw(item.ProductNew ? " <span class=\"label-featured label label-success\">" + FormUI.ProductNew + "</span>" : "")
+
+                                <a href="@Url.Action("PostDetail","Post", new {seoUrl =item.SeoUrl,area=""})" class="hover-effect">
+                                    <img width="385" height="258" src="@Url.Content("~/" + item.ImageMediumSize)" class="attachment-houzez-property-thumb-image size-houzez-property-thumb-image wp-post-image"
+                                         alt="@item.Title" srcset="@Url.Content("~/" + item.ImageMediumSize) 385w
+                                         , @Url.Content("~/" + item.ImageMediumSize) 300w
+                                         , @Url.Content("~/" + item.ImageMediumSize) 768w
+                                         , @Url.Content("~/" + item.ImageMediumSize) 1024w
+                                         , @Url.Content("~/" + item.ImageMediumSize) 150w
+                                         , @Url.Content("~/" + item.ImageMediumSize) 350w
+                                         , @Url.Content("~/" + item.ImageMediumSize) 1170w" sizes="(max-width: 385px) 100vw, 385px" />
+                                </a>
+                                <figcaption class="thumb-caption">
+                                    <div class="cap-price pull-left"> @item.Title</div>                                   
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div id="houzez_featured_properties-16" class="widget widget_houzez_featured_properties">
+        <div class="widget-top"><h3 class="widget-title">@FormUI.ProductHot</h3></div>
+
+        <div class="widget-body">
+            <div class="property-widget-slider slide-animated owl-carousel owl-theme">
+                @foreach (var item in post2)
+                {
+                    <div class="item">
+                        <div class="figure-block">
+                            <figure class="item-thumb">
+                                @Html.Raw(item.ProductHot ? "<div class=\"label-wrap label-right\"><span class=\"label-status label-status-8 label label-default\"><a href=\"#\">" + FormUI.ProductHot + "</a></span></div>" : "")
+
+                                <a href="@Url.Action("PostDetail","Post", new {seoUrl =item.SeoUrl,area=""})" class="hover-effect">
+                                    <img width="385" height="258" src="@Url.Content("~/" + item.ImageMediumSize)" class="attachment-houzez-property-thumb-image size-houzez-property-thumb-image wp-post-image"
+                                         alt="@item.Title" srcset="@Url.Content("~/" + item.ImageMediumSize) 385w
+                                         , @Url.Content("~/" + item.ImageMediumSize) 300w
+                                         , @Url.Content("~/" + item.ImageMediumSize) 768w
+                                         , @Url.Content("~/" + item.ImageMediumSize) 1024w
+                                         , @Url.Content("~/" + item.ImageMediumSize) 150w
+                                         , @Url.Content("~/" + item.ImageMediumSize) 350w
+                                         , @Url.Content("~/" + item.ImageMediumSize) 1170w" sizes="(max-width: 385px) 100vw, 385px" />
+                                </a>
+                                 <figcaption class="thumb-caption">
+                                    <div class="cap-price pull-left"> @item.Title</div>                                   
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}
+<!---/_PartialPostItems--->

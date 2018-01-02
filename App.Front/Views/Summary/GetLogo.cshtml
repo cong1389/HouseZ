@@ -1,0 +1,13 @@
+﻿ <!---GetLogo--->
+@model App.Domain.Entities.GlobalSetting.SystemSetting
+
+@if (Model != null)
+{
+    <div class="logo logo-desktop">
+        <a href="@Url.Action("Index", "Home", new { area = "" })" title='@Model.Title'>
+            <img src="@Url.Content("~/" + Model.LogoImage)" alt='@Model.Title'>
+            <span class="divCompanyName">vision sản vật </span>
+        </a>
+    </div>
+}
+<!---/GetLogo--->

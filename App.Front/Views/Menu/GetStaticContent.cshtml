@@ -1,0 +1,46 @@
+﻿<!---GetStaticContent---->
+@using App.Domain.Common
+@using Resources
+@model App.Domain.Entities.Data.StaticContent
+@if (Model != null)
+{
+    <div id="section-body" class="">
+        @Html.Action("BannerTop", "Banner", new { menuId = ViewBag.MenuId, title = ViewBag.Title })
+
+        <div class="container">
+
+            <div class="page-title breadcrumb-top">
+                <div class="row">
+                    <div class="col-sm-12">
+                        @{Html.RenderPartial("_BreadCrumb");}
+                        <div class="page-title-left">
+                            <h1 class="title-head">
+                                @ViewBag.Title
+                            </h1>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <section class="section-detail-content houzez-page-template">
+
+                <div class="row">
+                    @if (ViewBag.TemplateType == (int)TemplateContent.FixItem)
+                    {
+                        @Html.Action("GetStaticContentParent", "Menu", new { title = Model.Title, menuId = Model.MenuId, virtualId = Model.MenuLink.VirtualId })
+                    }
+                    else
+                    {
+                        <div class="content-desc">
+                            @Html.Raw(Model.Description)
+                        </div>
+                    }
+                </div>
+            </section>
+
+            @{ Html.RenderAction("FlowStepHome", "FlowStep", new { area = "" });}
+        </div>
+    </div>
+}
+<!---/GetStaticContent---->
