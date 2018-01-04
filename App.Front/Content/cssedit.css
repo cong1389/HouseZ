@@ -1428,3 +1428,11 @@ h1, .page-title .title-head, .article-detail h1, h2, .article-detail h2, .houzez
 }
 
 /*****************/ /*social-widget*********************/
+
+
+.header-mobile .header-logo img {
+    max-height: 45px;
+}
+.top-cartmobile {
+    line-height: 50px;
+}
