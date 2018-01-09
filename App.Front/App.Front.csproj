@@ -875,6 +875,7 @@
     <Content Include="Views\Shared\Socials\_Social.Twitter_Share.cshtml" />
     <Content Include="Views\Shared\Socials\_Social.GooglePlus_Share.cshtml" />
     <Content Include="Views\Shared\Socials\_Social.Email.cshtml" />
+    <Content Include="Views\Menu\SearchMenu.cshtml" />
     <None Include="Web.config">
       <SubType>Designer</SubType>
     </None>
@@ -1063,7 +1064,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>63961</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:9358/</IISUrl>
+          <IISUrl>http://localhost:9359/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

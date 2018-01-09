@@ -4,7 +4,7 @@
 
 @if (Model.IsAny())
 {
-    <div data-vc-full-width="true" data-vc-full-width-init="true" class="row row-fluid" style="position: relative; left: -351.5px; box-sizing: border-box; width: 1903px; padding-left: 351.5px; padding-right: 351.5px;">
+    <div class="row row-fluid">
         <div class="col-sm-12">
             <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
@@ -17,28 +17,29 @@
                     <div id="agents-module" class="houzez-module agents-module">
                         <div class="agents-blocks-main">
                             <div class="row no-margin">
+
                                 @foreach (var item in Model)
                                 {
                                     <div class="col-md-3 col-sm-6">
                                         <div class="agents-block">
+
                                             <figure class="auther-thumb">
-                                                <a href="../agent/samuel-palmer/index.html"
-                                                   class="view">
-                                                    <img src="@Url.Content("~/" + item.ImageUrl)" class="img-circle" width="150"
-                                                         height="150" alt="@item.Title">
+                                                <a href="#" class="view">
+                                                    <img src="@Url.Content("~/" + item.ImageUrl)" class="img-circle" width="150" height="150" alt="@item.Title">
                                                 </a>
                                             </figure>
 
+
                                             <div class="web-logo text-center">
                                             </div>
+
                                             <div class="block-body">
                                                 <p class="auther-info">
-                                                    <div class="blue">  @item.Title</div>
-                                                    <div class="description">
-                                                    @Html.Raw(item.Description)
-                                                </div>
+                                                    <span class="blue">@item.Title</span>
+                                                    
                                                 </p>
-                                                
+                                                <div class="description">@Html.Raw(item.Description)</div>
+                                              
                                             </div>
                                         </div>
                                     </div>
@@ -50,7 +51,6 @@
                     <!--end post agents module-->
 
 
-                    <div class="vc_empty_space" style="height: 50px"><span class="vc_empty_space_inner"></span></div>
                 </div>
             </div>
         </div>

@@ -1270,7 +1270,7 @@ img.emoji {
 
 .divCompanyName {
     font-size: 15px;
-    margin: -10px 0 0px;
+    margin: -10px 0 0px -15px;
     font-weight: 500;
     text-transform: uppercase;
     color: #ec1013;
@@ -1368,9 +1368,11 @@ h1, .page-title .title-head, .article-detail h1, h2, .article-detail h2, .houzez
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     outline: none;
 }
+
 .sbutton img {
     padding: 5px;
 }
+
 #csbwfs-right #tw a {
     position: absolute;
     right: 0;
@@ -1384,12 +1386,13 @@ h1, .page-title .title-head, .article-detail h1, h2, .article-detail h2, .houzez
     height: 40px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 #csbwfs-right #gp a {
     position: absolute;
     right: 0;
 }
 
- #gp a {
+#gp a {
     background: none repeat scroll 0 0 #DD4C39;
     text-align: center;
     display: block;
@@ -1398,6 +1401,7 @@ h1, .page-title .title-head, .article-detail h1, h2, .article-detail h2, .houzez
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     outline: none;
 }
+
 #csbwfs-right #li a {
     position: absolute;
     right: 0;
@@ -1412,12 +1416,13 @@ h1, .page-title .title-head, .article-detail h1, h2, .article-detail h2, .houzez
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     outline: none;
 }
+
 #csbwfs-right #ml a {
     position: absolute;
     right: 0;
 }
 
- #ml a {
+#ml a {
     background: none repeat scroll 0 0 #738A8D;
     text-align: center;
     display: block;
@@ -1428,3 +1433,22 @@ h1, .page-title .title-head, .article-detail h1, h2, .article-detail h2, .houzez
 }
 
 /*****************/ /*social-widget*********************/
+
+
+.header-mobile .header-logo img {
+    max-height: 45px;
+}
+
+.top-cartmobile {
+    line-height: 50px;
+    width: 29%;
+    float: right;
+}
+
+
+.header-mobile .header-logo {
+    float: left;
+    width: 45%;
+    text-align: center;
+    line-height: 55px;
+}

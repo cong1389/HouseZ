@@ -52,6 +52,20 @@
                     <div id="divLogoMobile"></div>
                 </a>
             </div>
+
+            <div class="top-cartmobile">
+                    <div class="header-tool search">
+                        <div class="language">
+                            <ul class="list-inline text-right">
+                                <li class='active'><a href="@Url.Action("SetLanguage", "Common", new { langid = 1, returnUrl = this.Request.RawUrl }, null)"><img src="assets/flag-vn.png" /><p class="hidden-xs hidden-sm"></p></a></li>
+                                <li><a href="@Url.Action("SetLanguage", "Common", new {langid = 2, returnUrl =this.Request.RawUrl},null)"><img src="assets/flag-en.png" /><p class="hidden-xs hidden-sm"></p></a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
         </div>
     </div>
 

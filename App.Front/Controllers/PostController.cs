@@ -583,22 +583,26 @@ namespace App.Front.Controllers
                 PageSize = base._pageSize,
                 TotalRecord = 0
             };
-            SeachConditions seachCondition = JsonConvert.DeserializeObject<SeachConditions>(base.Server.UrlDecode(httpCookie.Value));
-            expression = expression.And<Post>((Post x) => (int?)x.MenuId == seachCondition.CategoryId);
-            MenuLink byId = this._menuLinkService.GetById(seachCondition.CategoryId.Value);
-            ((dynamic)base.ViewBag).KeyWords = byId.MetaKeywords;
-            ((dynamic)base.ViewBag).SiteUrl = base.Url.Action("GetContent", "Menu", new { catUrl = catUrl, parameters = parameters, page = page, area = "" });
-            ((dynamic)base.ViewBag).Description = byId.MetaDescription;
-            ((dynamic)base.ViewBag).Image = base.Url.Content(string.Concat("~/", byId.ImageUrl));
-            ((dynamic)base.ViewBag).VirtualId = byId.CurrentVirtualId;
-            string menuName = byId.MenuName;
+
+            SeachConditions seachCondition = JsonConvert.DeserializeObject<SeachConditions>(base.Server.UrlDecode(httpCookie.Value));            
+
+            //expression = expression.And<Post>((Post x) => (int?)x.MenuId == seachCondition.CategoryId);
+            //MenuLink byId = this._menuLinkService.GetById(seachCondition.CategoryId.Value);
+            //((dynamic)base.ViewBag).KeyWords = byId.MetaKeywords;
+            //((dynamic)base.ViewBag).SiteUrl = base.Url.Action("GetContent", "Menu", new { catUrl = catUrl, parameters = parameters, page = page, area = "" });
+            //((dynamic)base.ViewBag).Description = byId.MetaDescription;
+            //((dynamic)base.ViewBag).Image = base.Url.Content(string.Concat("~/", byId.ImageUrl));
+            //((dynamic)base.ViewBag).VirtualId = byId.CurrentVirtualId;
+            //string menuName = byId.MenuName;
+
             if (!string.IsNullOrEmpty(seachCondition.Keywords))
             {
-                expression = expression.And<Post>((Post x) => x.Title.Contains(seachCondition.Keywords) || x.Description.Contains(seachCondition.Keywords));
+                expression = expression.And<Post>((Post x) => x.SeoUrl.Contains(seachCondition.Keywords) || x.Title.Contains(seachCondition.Keywords) || x.Description.Contains(seachCondition.Keywords));
             }
+
             IEnumerable<Post> posts = this._postService.FindAndSort(expression, sortBuilder, paging);
             ((dynamic)base.ViewBag).PageNumber = page;
-            ((dynamic)base.ViewBag).Title = menuName;
+            //((dynamic)base.ViewBag).Title = menuName;
             if (posts.IsAny<Post>())
             {
                 Helper.PageInfo pageInfo = new Helper.PageInfo(ExtentionUtils.PageSize, page, paging.TotalRecord, (int i) => base.Url.Action("GetContent", "Menu", new { page = i }));
