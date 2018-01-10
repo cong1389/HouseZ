@@ -1534,103 +1534,103 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/18/2016 13:55:30</publishTime>
     </File>
     <File Include="bin/App.Admin.dll">
-      <publishTime>01/06/2018 22:51:01</publishTime>
+      <publishTime>01/10/2018 22:31:57</publishTime>
     </File>
     <File Include="bin/App.Admin.dll.config">
       <publishTime>12/21/2017 15:57:18</publishTime>
     </File>
     <File Include="bin/App.Admin.pdb">
-      <publishTime>01/06/2018 22:51:01</publishTime>
+      <publishTime>01/10/2018 22:31:57</publishTime>
     </File>
     <File Include="bin/App.Aplication.dll">
-      <publishTime>01/06/2018 22:43:15</publishTime>
+      <publishTime>01/10/2018 22:30:18</publishTime>
     </File>
     <File Include="bin/App.Aplication.dll.config">
       <publishTime>10/30/2017 12:52:02</publishTime>
     </File>
     <File Include="bin/App.Aplication.pdb">
-      <publishTime>01/06/2018 22:43:15</publishTime>
+      <publishTime>01/10/2018 22:30:18</publishTime>
     </File>
     <File Include="bin/App.AsyncService.dll">
       <publishTime>10/30/2017 11:25:54</publishTime>
     </File>
     <File Include="bin/App.Core.dll">
-      <publishTime>12/31/2017 19:24:55</publishTime>
+      <publishTime>01/09/2018 22:49:03</publishTime>
     </File>
     <File Include="bin/App.Core.dll.config">
       <publishTime>10/30/2017 11:25:54</publishTime>
     </File>
     <File Include="bin/App.Core.pdb">
-      <publishTime>12/31/2017 19:24:55</publishTime>
+      <publishTime>01/09/2018 22:49:03</publishTime>
     </File>
     <File Include="bin/App.Domain.dll">
-      <publishTime>12/31/2017 19:24:55</publishTime>
+      <publishTime>01/09/2018 22:49:02</publishTime>
     </File>
     <File Include="bin/App.Domain.dll.config">
       <publishTime>10/30/2017 11:25:54</publishTime>
     </File>
     <File Include="bin/App.Domain.pdb">
-      <publishTime>12/31/2017 19:24:55</publishTime>
+      <publishTime>01/09/2018 22:49:02</publishTime>
     </File>
     <File Include="bin/App.FakeEntity.dll">
-      <publishTime>01/06/2018 22:50:50</publishTime>
+      <publishTime>01/10/2018 22:31:46</publishTime>
     </File>
     <File Include="bin/App.FakeEntity.dll.config">
       <publishTime>10/30/2017 12:44:12</publishTime>
     </File>
     <File Include="bin/App.FakeEntity.pdb">
-      <publishTime>01/06/2018 22:50:50</publishTime>
+      <publishTime>01/10/2018 22:31:46</publishTime>
     </File>
     <File Include="bin/App.Framework.dll">
-      <publishTime>01/06/2018 22:44:12</publishTime>
+      <publishTime>01/10/2018 22:30:20</publishTime>
     </File>
     <File Include="bin/App.Framework.dll.config">
       <publishTime>12/21/2017 11:28:02</publishTime>
     </File>
     <File Include="bin/App.Framework.pdb">
-      <publishTime>01/06/2018 22:44:12</publishTime>
+      <publishTime>01/10/2018 22:30:20</publishTime>
     </File>
     <File Include="bin/App.Front.dll">
-      <publishTime>01/06/2018 22:51:14</publishTime>
+      <publishTime>01/10/2018 22:32:06</publishTime>
     </File>
     <File Include="bin/App.Front.pdb">
-      <publishTime>01/06/2018 22:51:14</publishTime>
+      <publishTime>01/10/2018 22:32:06</publishTime>
     </File>
     <File Include="bin/App.Infra.Data.dll">
-      <publishTime>12/31/2017 16:37:15</publishTime>
+      <publishTime>01/07/2018 22:38:54</publishTime>
     </File>
     <File Include="bin/App.Infra.Data.pdb">
-      <publishTime>12/31/2017 16:37:15</publishTime>
+      <publishTime>01/07/2018 22:38:54</publishTime>
     </File>
     <File Include="bin/App.Infra.Data.Repository.dll">
-      <publishTime>12/31/2017 16:37:16</publishTime>
+      <publishTime>01/07/2018 22:38:55</publishTime>
     </File>
     <File Include="bin/App.Infra.Data.Repository.pdb">
-      <publishTime>12/31/2017 16:37:16</publishTime>
+      <publishTime>01/07/2018 22:38:55</publishTime>
     </File>
     <File Include="bin/App.Infra.Data.RepositoryAsync.dll">
-      <publishTime>12/31/2017 16:37:16</publishTime>
+      <publishTime>01/07/2018 22:38:55</publishTime>
     </File>
     <File Include="bin/App.Infra.Data.RepositoryAsync.pdb">
-      <publishTime>12/31/2017 16:37:16</publishTime>
+      <publishTime>01/07/2018 22:38:55</publishTime>
     </File>
     <File Include="bin/App.SeoSitemap.dll">
-      <publishTime>12/31/2017 19:24:55</publishTime>
+      <publishTime>01/09/2018 22:49:04</publishTime>
     </File>
     <File Include="bin/App.SeoSitemap.dll.config">
       <publishTime>10/30/2017 11:26:06</publishTime>
     </File>
     <File Include="bin/App.SeoSitemap.pdb">
-      <publishTime>12/31/2017 19:24:55</publishTime>
+      <publishTime>01/09/2018 22:49:04</publishTime>
     </File>
     <File Include="bin/App.Service.dll">
-      <publishTime>01/06/2018 22:50:49</publishTime>
+      <publishTime>01/10/2018 22:31:45</publishTime>
     </File>
     <File Include="bin/App.Service.dll.config">
       <publishTime>10/30/2017 11:26:06</publishTime>
     </File>
     <File Include="bin/App.Service.pdb">
-      <publishTime>01/06/2018 22:50:49</publishTime>
+      <publishTime>01/10/2018 22:31:45</publishTime>
     </File>
     <File Include="bin/ApplicationInsights.config">
       <publishTime>12/20/2017 16:41:14</publishTime>
@@ -1744,10 +1744,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/13/2012 12:19:34</publishTime>
     </File>
     <File Include="bin/Resources.dll">
-      <publishTime>12/31/2017 19:24:58</publishTime>
+      <publishTime>01/09/2018 22:49:04</publishTime>
     </File>
     <File Include="bin/Resources.pdb">
-      <publishTime>12/31/2017 19:24:58</publishTime>
+      <publishTime>01/09/2018 22:49:04</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>12/13/2017 22:09:38</publishTime>
@@ -2226,6 +2226,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Menu/GetStaticHot.cshtml">
       <publishTime>12/18/2017 14:10:04</publishTime>
     </File>
+    <File Include="Views/Menu/SearchMenu.cshtml">
+      <publishTime>01/10/2018 22:28:50</publishTime>
+    </File>
+    <File Include="Views/Menu/SearchMenuMobile.cshtml">
+      <publishTime>01/10/2018 22:30:16</publishTime>
+    </File>
     <File Include="Views/MenuNav/GetFixedHomePage.cshtml">
       <publishTime>12/18/2017 14:10:04</publishTime>
     </File>
@@ -2248,7 +2254,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/23/2017 23:54:14</publishTime>
     </File>
     <File Include="Views/MenuNav/Header.cshtml">
-      <publishTime>01/06/2018 22:50:14</publishTime>
+      <publishTime>01/10/2018 22:29:22</publishTime>
     </File>
     <File Include="Views/MenuNav/MenuNavLeft.cshtml">
       <publishTime>12/30/2017 13:24:36</publishTime>
@@ -2329,7 +2335,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/26/2017 10:43:22</publishTime>
     </File>
     <File Include="Views/SearchBox/SearchHome.cshtml">
-      <publishTime>10/30/2017 11:25:58</publishTime>
+      <publishTime>01/07/2018 20:39:29</publishTime>
     </File>
     <File Include="Views/Shared/ChoiceTemplates/Choice.CheckRadio.cshtml">
       <publishTime>10/30/2017 11:25:58</publishTime>

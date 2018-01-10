@@ -38,8 +38,7 @@
             </div>
         </div>
     </header>
-
-
+    
     <div class="header-mobile houzez-header-mobile " data-sticky="0">
         <div class="container">
             <!--start mobile nav-->
@@ -61,20 +60,15 @@
                             <li class='active'><a href="@Url.Action("SetLanguage", "Common", new { langid = 1, returnUrl = this.Request.RawUrl }, null)"><img src="/assets/flag-vn.png" /><p class="hidden-xs hidden-sm"></p></a></li>
                             <li><a href="@Url.Action("SetLanguage", "Common", new {langid = 2, returnUrl =this.Request.RawUrl},null)"><img src="/assets/flag-en.png" /><p class="hidden-xs hidden-sm"></p></a></li>
 
-
                         </ul>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
-
 }
-    @Html.Action("SearchMenu", "Menu", "tim-kiem")
-
-
-
+@Html.Action("SearchMenu", "Menu", "tim-kiem")
+@Html.Action("SearchMenuMobile", "Menu", "tim-kiem")
 
 <script>
     jQuery(function () {

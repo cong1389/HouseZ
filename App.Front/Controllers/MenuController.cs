@@ -270,6 +270,13 @@ namespace App.Front.Controllers
             return PartialView(seachConditions);
         }
 
+        public ActionResult SearchMenuMobile()
+        {
+            SeachConditions seachConditions = new SeachConditions();
+
+            return PartialView(seachConditions);
+        }
+
         public ActionResult Search(SeachConditions conditions)
         {
             //Province province;

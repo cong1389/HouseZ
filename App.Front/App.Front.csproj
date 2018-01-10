@@ -876,6 +876,7 @@
     <Content Include="Views\Shared\Socials\_Social.GooglePlus_Share.cshtml" />
     <Content Include="Views\Shared\Socials\_Social.Email.cshtml" />
     <Content Include="Views\Menu\SearchMenu.cshtml" />
+    <Content Include="Views\Menu\SearchMenuMobile.cshtml" />
     <None Include="Web.config">
       <SubType>Designer</SubType>
     </None>
